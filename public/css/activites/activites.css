@@ -1,0 +1,122 @@
+/* Style CSS pour la page des personnages */
+
+    #mer_de_glace {
+    	background-image: url('images/mer_de_glace.jpg');
+    	background-size: 50% 100%;
+        background-position: right;
+    	display: flex;
+        flex-flow: row-reverse;
+    	align-content: stretch;	
+        background-repeat: no-repeat;
+        color:white;
+    	background-color: #414141;
+    	padding: 2% 4% 2% 4%;
+    }
+
+    #randonnees_mont_blanc {
+    	background-image: url('images/randonnees_mont_blanc.jpg');
+    	background-size: 50% 100%;
+    	display: flex;
+    	align-content: stretch;	
+        background-repeat: no-repeat;
+        color:white;
+    	background-color: #414141;
+    	padding: 2% 4% 2% 4%;
+    }
+
+    #alpinisme {
+    	background-image: url('images/alpinisme.png');
+    	background-size: 50% 150%;
+        background-position: right;
+    	display: flex;
+        flex-flow: row-reverse;
+    	align-content: stretch;	
+        background-repeat: no-repeat;
+        color:white;
+    	background-color: #414141;
+    	padding: 2% 4% 2% 4%;
+    }
+
+    #gorges_du_fier {
+    	background-image: url('images/gorges_du_fier.webp');
+    	background-size: 50% 100%;
+    	display: flex;
+    	align-content: stretch;	
+        background-repeat: no-repeat;
+        color:white;
+    	background-color: #414141;
+    	padding: 2% 4% 2% 4%;
+    }
+
+    #aiguille_du_midi {
+    	background-image: url('images/aiguille_du_midi.webp');
+    	background-size: 50% 150%;
+        background-position: right;
+    	display: flex;
+        flex-flow: row-reverse;
+    	align-content: stretch;	
+        background-repeat: no-repeat;
+        color:white;
+    	background-color: #414141;
+    	padding: 2% 4% 2% 4%;
+    }
+
+    #randonnees_importantes {
+    	background-image: url('images/randonnees_importantes.webp');
+    	background-size: 50% 100%;
+    	display: flex;
+    	align-content: stretch;	
+        background-repeat: no-repeat;
+        color:white;
+    	background-color: #414141;
+    	padding: 2% 4% 2% 4%;
+    }
+
+    #gorges_du_pont_du_diable {
+    	background-image: url('images/gorges_du_pont_du_diable.webp');
+    	background-size: 50% 150%;
+        background-position: right;
+    	display: flex;
+        flex-flow: row-reverse;
+    	align-content: stretch;	
+        background-repeat: no-repeat;
+        color:white;
+    	background-color: #414141;
+    	padding: 2% 4% 2% 4%;
+    }
+
+    #ski {
+    	background-image: url('images/ski.png');
+    	background-size: 50% 100%;
+    	display: flex;
+    	align-content: stretch;	
+        background-repeat: no-repeat;
+        color:white;
+    	background-color: #414141;
+    	padding: 2% 4% 2% 4%;
+    }
+
+    h2 {
+        text-align: justify;
+        margin: auto;
+        padding: 0% 0 1% 15%;
+        font-size: 18px;
+        font-family: "DroidSerif";
+        line-height: 1.5;
+        font-weight: bold;
+    }
+
+
+
+
+
+    #page p {
+        text-align: justify;
+    }
+
+    .col-2 {
+        width: 80%;
+    }
+
+
+
