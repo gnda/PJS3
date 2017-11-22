@@ -15,5 +15,10 @@ class HomeController extends Controller {
             $this->render($response, 'pages/nature.twig');
     }
 
+    public function culinaire (\Slim\Http\Request $request, \Slim\Http\Response $response, $args){
+
+            $this->render($response, 'pages/culinaire.twig');
+    }
+
 
 }
