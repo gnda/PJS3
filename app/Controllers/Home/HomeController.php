@@ -24,9 +24,5 @@ class HomeController extends Controller {
 
             $this->render($response, 'pages/activites.twig');
     }
-	
-	/*public function page(\Slim\Http\Response $response, $nomPage){
-		$this->render($response, 'pages/'.$nomPage.'.twig');
-	}*/
 
 }
