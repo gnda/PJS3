@@ -1,13 +1,54 @@
 {% extends "layout.twig" %}
 
-{% block css %}<link href="{{ base_url() }}/css/home/home.css" rel="stylesheet">{% endblock %}
+{% block css %}
+<link href="{{ base_url() }}/css/home/home.css" rel="stylesheet">
+<link href="{{ base_url() }}/css/font/lemon/stylesheet.css" rel="stylesheet">
+
+{% endblock %}
 
 {% block content %}
 
-    <div class="container home-container">
 
-
-
+    <div class="head-photo d-flex align-items-center justify-content-center">
+        <span>Auvergne-Rhône-Alpes</span>
     </div>
+
+    <main role="main" class="container home-container">
+
+        <div class="text-center home-logo">
+            <img src="img/logo_big.png">
+        </div>
+
+        <div class="home-intro text-center">
+            <p>L’Auvergne Rhône Alpes est une région française qui existe depuis la réforme des Régions Françaises de 2014. Accueillante, 
+                florissante, et haute en couleurs la région à su développer un tourisme dynamique ainsi que des pôles d’activités.</p>
+​               
+            <div class="justify-content-center row">
+                <div class="home-intro-delimiter"></div>
+            </div>
+​   
+            <p>Avec ses espaces verts et sa biodiversité, la région Auvergne Rhône Alpes est sans aucun doute à l’image de la 
+                richesse environnementale française.</p> 
+        </div>
+
+        <div class="row home-imgs">
+            <div class="col-md-4 home-imgs-box">
+                <div class="d-flex align-items-end justify-content-center">
+                    <p>Histoire</p>
+                </div>
+            </div>
+            <div class="col-md-4 home-imgs-box">
+                <div class="d-flex align-items-end justify-content-center">
+                    <p>Nature</p>
+                </div>
+            </div>
+            <div class="col-md-4 home-imgs-box">
+                <div class="d-flex align-items-end justify-content-center">
+                    <p>Grandes Villes</p>
+                </div>
+            </div>
+        </div>
+
+    </main>
 
 {% endblock %}

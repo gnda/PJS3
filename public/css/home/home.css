@@ -1,0 +1,72 @@
+.head-photo{
+    background: url('../../img/home/mountains.jpg');
+    background-size: cover;
+    height: 475px;
+}
+
+.head-photo span{
+    color: #000;
+    background-color: #fff;
+    padding: 5px 15px;
+    font-size: 50px;
+    letter-spacing: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: 'lemonmilkbold', 'Open Sans', sans-serif;
+}
+
+.home-logo{
+    margin-top: 24px;
+}
+
+.home-logo img{
+    width: 90px;
+}
+
+.home-intro{
+    font-weight: 300;
+    font-size: 20px;
+    margin: 20px 0;
+
+}
+
+.home-intro p{
+    padding: 0;
+    margin: 0;
+}
+
+.home-intro-delimiter{
+    width: 300px;    
+    border-bottom: 4px dotted rgba(1, 177, 175, 1);
+}
+
+.home-imgs-box{
+    padding: 10px;
+    margin-bottom: 60px;
+}
+
+.home-imgs-box div{
+    background-size: cover;
+    height: 250px;
+}
+
+.home-imgs-box p{
+   color: rgba(1, 177, 175, 1);
+   background-color: #fff;
+   padding: 10px 35px;
+   font-size: 25px;
+   font-family: serif;
+   display: inline-block;
+}
+
+.home-imgs-box:nth-child(1) div{
+    background-image: url('../../img/home/intro3.png')
+}
+
+.home-imgs-box:nth-child(2) div{
+    background-image: url('../../img/home/intro2.png')
+}
+
+.home-imgs-box:nth-child(3) div{
+    background-image: url('../../img/home/intro1.png')
+}

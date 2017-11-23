@@ -23,6 +23,12 @@
       "css": "twitter",
       "code": 61593,
       "src": "fontawesome"
+    },
+    {
+      "uid": "0805cca616b3c12714f35af4d0912c10",
+      "css": "up-open-big",
+      "code": 59392,
+      "src": "entypo"
     }
   ]
 }
