@@ -33,7 +33,7 @@
 {
 	width: auto;
 	height: 400px;
-	background-color: yellow;
+	background-color: #73d2d7;
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 0px;
@@ -48,7 +48,7 @@
 	height: 400px;
 	clear: both;
 	position: relative;
-   
+    display:flex;
 	-webkit-transition: left 2s;
 	-moz-transition: left 2s;
 	-o-transition: left 2s;
@@ -58,7 +58,7 @@
 .slider-image
 {
 	float: left;
-	margin: 0px;
+	margin: 0px 0px 0px 17.25%;
 	padding: 0px;
 	position: relative;
 }
@@ -87,8 +87,21 @@
 .slider-change
 {
 	display: inline-block;
-	height: 10px;
-	width: 10px;
+	height: 5px;
+	width: 5px;
 	border-radius: 5px;
-	background-color: brown;
+	margin: 0px 10px 0px 0px;
+	background-color: #0025ff;
+}
+
+a.slider-change:visited { 
+  background-color: #ffffff4f;
+}
+
+a .slider-change:focused {
+  background-color: #ffffff4f;
+}
+
+a.slider-change:active {
+  background-color: #ffffff4f;
 }
