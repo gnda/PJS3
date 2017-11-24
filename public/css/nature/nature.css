@@ -1,3 +1,18 @@
+#nature .owl-nav{
+    position: absolute;
+    top: 45%;
+    width: 100%;
+}
+
+#nature .owl-nav img{
+    width: 100px;
+}
+
+#nature .owl-prev,#nature .owl-next{
+	background-color:#73d2d700;
+	width: 40%;
+}
+
 #nature .owl-stage{
 	background-color:#73d2d7;
 }
