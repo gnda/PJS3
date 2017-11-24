@@ -31,6 +31,10 @@ body {
   color: #3AC0C7 !important;
 }
 
+.home-navbar .navbar-nav .nav-item a:active{
+  color: #3AC0C7 !important;
+}
+
 .navbar-brand{
   margin-right: 8px;
 }
