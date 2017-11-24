@@ -10,8 +10,12 @@
 
 #nature .owl-prev,#nature .owl-next{
 	background-color:#73d2d700;
-	width: 40%;
 }
+
+#nature .owl-prev{
+	margin-right:90%;
+}
+
 
 #nature .owl-stage{
 	background-color:#73d2d7;
