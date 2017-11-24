@@ -1,7 +1,7 @@
 /* Style CSS pour la page des personnages */
 
     #mer_de_glace {
-    	background-image: url('images/mer_de_glace.jpg');
+    	background-image: url('../../img/activites/mer_de_glace.jpg');
     	background-size: 50% 100%;
         background-position: right;
     	display: flex;
@@ -14,7 +14,7 @@
     }
 
     #randonnees_mont_blanc {
-    	background-image: url('images/randonnees_mont_blanc.jpg');
+    	background-image: url('../../img/activites/randonnees_mont_blanc.jpg');
     	background-size: 50% 100%;
     	display: flex;
     	align-content: stretch;	
@@ -25,7 +25,7 @@
     }
 
     #alpinisme {
-    	background-image: url('images/alpinisme.png');
+    	background-image: url('../../img/activites/alpinisme.png');
     	background-size: 50% 150%;
         background-position: right;
     	display: flex;
@@ -38,7 +38,7 @@
     }
 
     #gorges_du_fier {
-    	background-image: url('images/gorges_du_fier.webp');
+    	background-image: url('../../img/activites/gorges_du_fier.webp');
     	background-size: 50% 100%;
     	display: flex;
     	align-content: stretch;	
@@ -49,7 +49,7 @@
     }
 
     #aiguille_du_midi {
-    	background-image: url('images/aiguille_du_midi.webp');
+    	background-image: url('../../img/activites/aiguille_du_midi.webp');
     	background-size: 50% 150%;
         background-position: right;
     	display: flex;
@@ -62,7 +62,7 @@
     }
 
     #randonnees_importantes {
-    	background-image: url('images/randonnees_importantes.webp');
+    	background-image: url('../../img/activites/randonnees_importantes.webp');
     	background-size: 50% 100%;
     	display: flex;
     	align-content: stretch;	
@@ -73,7 +73,7 @@
     }
 
     #gorges_du_pont_du_diable {
-    	background-image: url('images/gorges_du_pont_du_diable.webp');
+    	background-image: url('../../img/activites/gorges_du_pont_du_diable.webp');
     	background-size: 50% 150%;
         background-position: right;
     	display: flex;
@@ -86,7 +86,7 @@
     }
 
     #ski {
-    	background-image: url('images/ski.png');
+    	background-image: url('../../img/activites/ski.png');
     	background-size: 50% 100%;
     	display: flex;
     	align-content: stretch;	
