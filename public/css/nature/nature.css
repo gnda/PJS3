@@ -37,16 +37,23 @@
 }
 
 #owl-nature .icon img{
-	width: 15%;
-    margin: 6% auto;
     position:relative;
     overflow: hidden;
+    margin: 7% auto;
 }
 
+#owl-nature .icon.lacs img{
+	width: 15%;
+
+}
+
+#owl-nature .icon.mil_roc img, .icon.plateaux img{
+	width: 9%;
+}
 
 #nature .icon h1{
 	color:#ffffff;
-	margin:-5% 0 0 0;
+	margin:-6% 0 0 0;
 	font-family: 'Lato', sans-serif;
 	font-weight: normal;
   	font-size: 80px;
@@ -60,7 +67,7 @@
 	width: 60%;
 	margin: -18.5% 0 0 20%;
 	text-align: center;
-	padding: 20px 45px 10px 45px;
+	padding: 20px 45px 20px 45px;
 	position:relative;
 	background-color:#38c1c7ba;
 	color:white;
@@ -104,7 +111,7 @@
 	padding: 10px 0px 40px 50px;
 }
 
-.mini-menu a{
+.mini-menu label{
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
 	font-weight:bold;
   	padding: 0px 25px 0px 0px;
@@ -113,7 +120,8 @@
   	text-decoration:none;
 }
 
-.mini-menu a:hover{
+.mini-menu label:hover{
   	text-decoration:inherit;
   	color: #3AC0C7;
+  	-webkit-transition: color 0.3s;
 }
