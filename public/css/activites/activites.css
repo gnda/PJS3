@@ -5,11 +5,10 @@
     	background-size: 50% 100%;
         background-position: right;
     	display: flex;
-        flex-flow: row-reverse;
-    	align-content: stretch;	
+    	align-content: stretch;
         background-repeat: no-repeat;
-        color:white;
-    	background-color: #414141;
+        color: white;
+    	background-color: #39bfc7;
     	padding: 2% 4% 2% 4%;
     }
 
@@ -17,23 +16,23 @@
     	background-image: url('../../img/activites/randonnees_mont_blanc.jpg');
     	background-size: 50% 100%;
     	display: flex;
+        flex-flow: row-reverse;
     	align-content: stretch;	
         background-repeat: no-repeat;
-        color:white;
-    	background-color: #414141;
+        color: white;
+    	background-color: #39bfc7;
     	padding: 2% 4% 2% 4%;
     }
 
     #alpinisme {
     	background-image: url('../../img/activites/alpinisme.png');
-    	background-size: 50% 150%;
+    	background-size: 50% 100%;
         background-position: right;
     	display: flex;
-        flex-flow: row-reverse;
     	align-content: stretch;	
         background-repeat: no-repeat;
-        color:white;
-    	background-color: #414141;
+        color: white;
+    	background-color: #39bfc7;
     	padding: 2% 4% 2% 4%;
     }
 
@@ -41,23 +40,23 @@
     	background-image: url('../../img/activites/gorges_du_fier.webp');
     	background-size: 50% 100%;
     	display: flex;
+        flex-flow: row-reverse;
     	align-content: stretch;	
         background-repeat: no-repeat;
-        color:white;
-    	background-color: #414141;
+        color: white;
+    	background-color: #39bfc7;
     	padding: 2% 4% 2% 4%;
     }
 
     #aiguille_du_midi {
     	background-image: url('../../img/activites/aiguille_du_midi.webp');
-    	background-size: 50% 150%;
+    	background-size: 50% 100%;
         background-position: right;
     	display: flex;
-        flex-flow: row-reverse;
     	align-content: stretch;	
         background-repeat: no-repeat;
-        color:white;
-    	background-color: #414141;
+        color: white;
+    	background-color: #39bfc7;
     	padding: 2% 4% 2% 4%;
     }
 
@@ -65,58 +64,74 @@
     	background-image: url('../../img/activites/randonnees_importantes.webp');
     	background-size: 50% 100%;
     	display: flex;
+        flex-flow: row-reverse;
     	align-content: stretch;	
         background-repeat: no-repeat;
-        color:white;
-    	background-color: #414141;
+        color: white;
+    	background-color: #39bfc7;
     	padding: 2% 4% 2% 4%;
     }
 
     #gorges_du_pont_du_diable {
     	background-image: url('../../img/activites/gorges_du_pont_du_diable.webp');
-    	background-size: 50% 150%;
+    	background-size: 50% 100%;
         background-position: right;
     	display: flex;
-        flex-flow: row-reverse;
     	align-content: stretch;	
         background-repeat: no-repeat;
-        color:white;
-    	background-color: #414141;
+        color: white;
+    	background-color: #39bfc7;
     	padding: 2% 4% 2% 4%;
     }
 
     #ski {
     	background-image: url('../../img/activites/ski.png');
-    	background-size: 50% 100%;
+        background-position: center;
     	display: flex;
+        flex-flow: row-reverse;
     	align-content: stretch;	
         background-repeat: no-repeat;
-        color:white;
-    	background-color: #414141;
+        color: white;
+    	background-color: #39bfc7;
     	padding: 2% 4% 2% 4%;
     }
 
     h2 {
-        text-align: justify;
+        text-align: center;
         margin: auto;
-        padding: 0% 0 1% 15%;
+        padding-bottom: 1%;
         font-size: 18px;
         font-family: "DroidSerif";
         line-height: 1.5;
         font-weight: bold;
     }
 
-
-
-
-
-    #page p {
+    #page_activites p {
         text-align: justify;
     }
 
-    .col-2 {
-        width: 80%;
+    h1 {
+        text-align: center;
+        color: #268085;
+        margin-top: 3%;
+        margin-bottom: 3%;
     }
+
+    .separation-en-2 {
+        width: 50%;
+    }
+
+    #page_activites {
+        margin-bottom: 15%;
+    }
+
+    a {
+        color: white;
+    }
+
+
+
+
 
 
 
