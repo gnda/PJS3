@@ -1,4 +1,27 @@
-$("#owl-nature").owlCarousel({
+document.addEventListener('DOMContentLoaded', function() {
+	if(document.querySelector("#slider-nature .slider-item") == null)
+		actualiserSlider("#slider-nature",".lacs","#nature-content");
+	document.querySelector(".link-lacs").addEventListener("click", function(){
+		actualiserSlider("#slider-nature",".lacs","#nature-content");
+	});
+});
+
+function actualiserSlider(nomSlider, classeItem){
+	//viderSlider(nomSlider);
+	afficherItems(nomSlider, classeItem);
+}
+
+function viderSlider(nomSlider){
+	
+}
+
+function afficherItems(nomSlider, classeItem){
+	var divs = document.querySelectorAll(nomSlider+" "+classeItem), i;
+	for (i = 0; i < divs.length; ++i)
+	  divs[i].display = "inline";
+}
+
+/*$("#owl-nature").owlCarousel({
 	dots: true,
 	items: 1,
 	nav: true,
@@ -29,7 +52,8 @@ $(".link-plateaux").click(function(){
 /*	classeItem --> classe du groupe d'éléments à ajouter
  *	nomContainer --> nom de la div qui contient les éléments à ajouter
  */
-function actualiserCarousel(nomCarousel, classeItem, nomContainer){
+ 
+/*function actualiserCarousel(nomCarousel, classeItem, nomContainer){
 	viderCarousel(nomCarousel);
 	$(nomContainer+" "+classeItem).each(function(){
 		$(nomContainer).append($(this).clone());
@@ -42,4 +66,4 @@ function viderCarousel(nomCarousel){
 	for(var i = 0; i < nbObj; i++)
 		$(nomCarousel).trigger("remove.owl.carousel", i);
 	$(nomCarousel).owlCarousel("refresh");
-}
+}*/

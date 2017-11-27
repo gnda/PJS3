@@ -1,53 +1,53 @@
-#nature .owl-nav{
+#nature .slider-nav{
     position: absolute;
     top: 38%;
     width: 100%;
 }
 
-#nature .owl-nav i{
+#nature .slider-nav i{
     font-size: 4em;
 }
 
-#nature .owl-nav i:hover{
+#nature .slider-nav i:hover{
     color:#ffffff87;
 }
 
-#nature .owl-prev,#nature .owl-next{
+#nature .slider-prev,#nature .slider-next{
 	background-color:#73d2d700;
 }
 
-#nature .owl-prev{
+#nature .slider-prev{
 	margin-right:79%;
 }
 
 
-#nature .owl-stage{
+#nature .slider-stage{
 	background-color:#73d2d7;
 	height:400px;
 }
 
-#owl-nature .item{
+#slider-nature .item{
 	width: 100%;
     display: block;
     margin: 0 auto;
 }
 
-#owl-nature .item img{
+#slider-nature .item img{
 	height: 400px;
 }
 
-#owl-nature .icon img{
+#slider-nature .icon img{
     position:relative;
     overflow: hidden;
     margin: 7% auto;
 }
 
-#owl-nature .icon.lacs img{
+#slider-nature .icon.lacs img{
 	width: 15%;
 
 }
 
-#owl-nature .icon.mil_roc img, .icon.plateaux img{
+#slider-nature .icon.mil_roc img, .icon.plateaux img{
 	width: 9%;
 }
 
@@ -59,11 +59,11 @@
   	font-size: 80px;
 }
 
-#owl-nature .item .texte h3 {
+#slider-nature .item .texte h3 {
     display: inline;
 }
 
-#owl-nature .item .texte{
+#slider-nature .item .texte{
 	width: 60%;
 	margin: -18.5% 0 0 20%;
 	text-align: center;
@@ -74,23 +74,23 @@
 	font-weight:600;
 }
 
-#owl-nature h1{
+#slider-nature h1{
 	color:white;
 }
 
-#nature .owl-dots{
+#nature .slider-dots{
 	margin:-4% 0 7% 0;
 	z-index:+1;
 	position:relative;
 }
 
-#nature .owl-dots span{
+#nature .slider-dots span{
 	height: 7px;
 	width: 7px;
 	background-color: white;
 }
 
-#nature .owl-dot.active span{
+#nature .slider-dot.active span{
 	background-color: #ffffff6e;
 }
 
@@ -124,4 +124,8 @@
   	text-decoration:inherit;
   	color: #3AC0C7;
   	-webkit-transition: color 0.3s;
+}
+
+.disp-none{
+	diplay: none;
 }
