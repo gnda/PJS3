@@ -1,6 +1,6 @@
 .mini-menu{
 	text-align:center;
-	padding: 10px 0px 40px 50px;
+	padding: 10px 0px 10px 50px;
 }
 
 .mini-menu label{
@@ -21,6 +21,8 @@
 
 #histoire{
   padding: 30px 0px 0px 0px;
+
+  
 }
 
 #histoire h1{
@@ -35,5 +37,40 @@
 	text-align:center;
 	font-family:book antiqua,serif;
 	color:black;
-  	font-size: 44px;
+  	font-size: 30px;
 }
+
+
+
+.home-intro-delimiter{
+	
+    width: 300px;    
+    border-bottom: 4px dotted rgba(1, 177, 175, 1);
+}
+
+.colonne {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 50%;
+  grid-auto-flow: column;
+}
+
+colonne_gauche {
+	padding: 2em;
+}
+
+colonne_droite {
+	padding: 2em;
+}
+
+p {
+	margin: 2em;
+	font-size: 15px;
+	color:#696969;
+	font-weight:300;
+}
+
+
+
+
+
