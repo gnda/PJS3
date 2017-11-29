@@ -1,0 +1,32 @@
+.mini-menu{
+	text-align:center;
+	padding: 10px 0px 40px 50px;
+}
+
+.mini-menu label{
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-weight:bold;
+  	padding: 0px 25px 0px 0px;
+  	font-size: 120%;
+  	color:black;
+  	text-decoration:none;
+}
+
+.mini-menu label:hover{
+  	text-decoration:inherit;
+  	color: #3AC0C7;
+  	-webkit-transition: color 0.3s;
+}
+
+
+#grandesvilles{
+  padding: 30px 0px 0px 0px;
+}
+
+#grandesvilles h1{
+	text-align:center;
+	font-family:playfair display,serif;
+	font-weight:bold;
+	color: #278085;
+  	font-size: 44px;
+}
