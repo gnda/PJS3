@@ -1,64 +1,15 @@
-img {
+#page_activites {
+    background-color: #39bfc7;
+    color: white;
+}
+
+#page_activites>div{
+     padding: 2% 0% 2% 0%;
+}
+
+.activites-container img {
     width: 100%;
     height: auto;
-}
-
-#mer_de_glace {
-    align-content: stretch;
-    color: white;
-    background-color: #39bfc7;
-    padding: 2% 0% 2% 0%;
-}
-
-#randonnees_mont_blanc {
-    flex-flow: row-reverse;
-    align-content: stretch;
-    color: white;
-    background-color: #39bfc7;
-    padding: 2% 0% 2% 0%;
-}
-
-#alpinisme {
-    align-content: stretch;
-    color: white;
-    background-color: #39bfc7;
-    padding: 2% 0% 2% 0%;
-}
-}
-
-#gorges_du_fier {
-    align-content: stretch;
-    color: white;
-    background-color: #39bfc7;
-    padding: 2% 0% 2% 0%;
-}
-
-#aiguille_du_midi {
-    align-content: stretch;
-    color: white;
-    background-color: #39bfc7;
-    padding: 2% 0% 2% 0%;
-}
-
-#randonnees_importantes {
-    align-content: stretch;	
-    color: white;
-    background-color: #39bfc7;
-    padding: 2% 0% 2% 0%;
-}
-
-#gorges_du_pont_du_diable {
-    align-content: stretch;	
-    color: white;
-    background-color: #39bfc7;
-    padding: 2% 0% 2% 0%;
-}
-
-#ski {
-    align-content: stretch;	
-    color: white;
-    background-color: #39bfc7;
-    padding: 2% 0% 2% 0%;
 }
 
 h2 {
@@ -78,8 +29,6 @@ h2 {
 }
 
 h1 {
-    text-align: center;
-    color: #268085;
     margin-top: 3%;
     margin-bottom: 3%;
 }
@@ -97,7 +46,7 @@ h1 {
     grid-template-rows: auto;
 }
 
-a {
+#page_activites a {
     color: white;
 }
 
