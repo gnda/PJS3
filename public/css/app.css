@@ -96,3 +96,47 @@ body {
   color: rgb(107, 202, 204);
   font-size: 28px;
 }
+
+h1{
+	text-align:center;
+	font-family:playfair display,serif;
+	font-weight:bold;
+	color: #278085;
+}
+
+.mini-menu{
+	text-align:center;
+	padding: 0.7% 0% 2% 4%;
+}
+
+.mini-menu label{
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-weight:bold;
+	padding-right: 2%;
+	color:black;
+}
+
+.mini-menu label:hover{
+	color: #3AC0C7;
+	-webkit-transition: color 0.3s;
+}
+
+@media screen and (min-width: 2278px){
+	h1{
+		font-size: 1.8vw;
+	}
+
+	.mini-menu label{
+		font-size: 0.7vw;
+	}
+}
+
+@media screen and (max-width: 1688px){
+	h1{
+		font-size: 3vw;
+	}
+	
+	.mini-menu label{
+		font-size: 1vw;
+	}
+}

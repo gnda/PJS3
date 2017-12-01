@@ -1,106 +1,105 @@
-/* Style CSS pour la page des personnages */
-    img {
-        width: 100%;
-        height: auto;
-    }
+img {
+    width: 100%;
+    height: auto;
+}
 
-    #mer_de_glace {
-    	align-content: stretch;
-        color: white;
-    	background-color: #39bfc7;
-    	padding: 2% 0% 2% 0%;
-    }
+#mer_de_glace {
+    align-content: stretch;
+    color: white;
+    background-color: #39bfc7;
+    padding: 2% 0% 2% 0%;
+}
 
-    #randonnees_mont_blanc {
-        flex-flow: row-reverse;
-    	align-content: stretch;
-        color: white;
-    	background-color: #39bfc7;
-    	padding: 2% 0% 2% 0%;
-    }
+#randonnees_mont_blanc {
+    flex-flow: row-reverse;
+    align-content: stretch;
+    color: white;
+    background-color: #39bfc7;
+    padding: 2% 0% 2% 0%;
+}
 
-    #alpinisme {
-    	align-content: stretch;
-        color: white;
-    	background-color: #39bfc7;
-    	padding: 2% 0% 2% 0%;
-    }
-    }
+#alpinisme {
+    align-content: stretch;
+    color: white;
+    background-color: #39bfc7;
+    padding: 2% 0% 2% 0%;
+}
+}
 
-    #gorges_du_fier {
-    	align-content: stretch;
-        color: white;
-    	background-color: #39bfc7;
-    	padding: 2% 0% 2% 0%;
-    }
+#gorges_du_fier {
+    align-content: stretch;
+    color: white;
+    background-color: #39bfc7;
+    padding: 2% 0% 2% 0%;
+}
 
-    #aiguille_du_midi {
-    	align-content: stretch;
-        color: white;
-    	background-color: #39bfc7;
-    	padding: 2% 0% 2% 0%;
-    }
+#aiguille_du_midi {
+    align-content: stretch;
+    color: white;
+    background-color: #39bfc7;
+    padding: 2% 0% 2% 0%;
+}
 
-    #randonnees_importantes {
-    	align-content: stretch;	
-        color: white;
-    	background-color: #39bfc7;
-    	padding: 2% 0% 2% 0%;
-    }
+#randonnees_importantes {
+    align-content: stretch;	
+    color: white;
+    background-color: #39bfc7;
+    padding: 2% 0% 2% 0%;
+}
 
-    #gorges_du_pont_du_diable {
-    	align-content: stretch;	
-        color: white;
-    	background-color: #39bfc7;
-    	padding: 2% 0% 2% 0%;
-    }
+#gorges_du_pont_du_diable {
+    align-content: stretch;	
+    color: white;
+    background-color: #39bfc7;
+    padding: 2% 0% 2% 0%;
+}
 
-    #ski {
-    	align-content: stretch;	
-        color: white;
-    	background-color: #39bfc7;
-    	padding: 2% 0% 2% 0%;
-    }
+#ski {
+    align-content: stretch;	
+    color: white;
+    background-color: #39bfc7;
+    padding: 2% 0% 2% 0%;
+}
 
-    h2 {
-        text-align: center;
-        margin: auto;
-        padding-bottom: 1%;
-        font-size: 18px;
-        font-family: "DroidSerif";
-        line-height: 1.5;
-        font-weight: bold;
-    }
+h2 {
+    text-align: center;
+    margin: auto;
+    padding-bottom: 1%;
+    font-size: 18px;
+    font-family: "DroidSerif";
+    line-height: 1.5;
+    font-weight: bold;
+}
 
-    #page_activites p {
-        text-align: justify;
-        padding-left: 3%;
-        padding-right: 3%;
-    }
+#page_activites p {
+    text-align: justify;
+    padding-left: 3%;
+    padding-right: 3%;
+}
 
-    h1 {
-        text-align: center;
-        color: #268085;
-        margin-top: 3%;
-        margin-bottom: 3%;
-    }
+h1 {
+    text-align: center;
+    color: #268085;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
 
-    #page_activites {
-        margin-bottom: 10%;
-        display: grid;
-        grid-template-columns: 50% 50%;
-        grid-template-rows: auto auto auto auto;
-    }
+#page_activites {
+    margin-bottom: 10%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto auto auto auto;
+}
 
-    .ligne_de_grille {
-        display: grid;
-        grid-template-columns: 50% 50%;
-        grid-template-rows: auto;
-    }
+.ligne_de_grille {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto;
+}
 
-    a {
-        color: white;
-    }
+a {
+    color: white;
+}
 
 
 
