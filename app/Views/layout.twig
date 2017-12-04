@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="{{ base_url() }}/js/owl/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="{{ base_url() }}/js/owl/assets/owl.theme.default.min.css">
     <link href="{{ base_url() }}/css/app.css" rel="stylesheet">
+	<link href="{{ base_url() }}/css/animation.css" rel="stylesheet">
     {% block css %}{% endblock %}
     
 </head>
@@ -65,23 +66,23 @@
     {% block content %}{% endblock %}
 
     <footer class="footer">
-      <div class="social row">
-        <div class="col-md-4 text-center">
-          <span class="icon-facebook"></span> Facebook
-        </div>
-        <div class="col-md-4 text-center">
-          <span class="icon-instagram"></span> Instagram
-        </div>
-        <div class="col-md-4 text-center">
-          <span class="icon-twitter"></span> Twitter
-        </div>
+      <div class="social">
+          <span class="icon-facebook"></span>Facebook
+          <span class="icon-instagram"></span>Instagram
+          <span class="icon-twitter"></span>Twitter
       </div>
-      <div id="owl-footer" class="owl-carousel">
-          <img src="{{ base_url() }}/img/footer/carousel/1.jpg">
-          <img src="{{ base_url() }}/img/footer/carousel/2.jpg">
-          <img src="{{ base_url() }}/img/footer/carousel/3.jpg">
-          <img src="{{ base_url() }}/img/footer/carousel/4.jpg">
-      </div>
+      <div id="slider-footer">
+		  <img id="img1" src="{{ base_url() }}/img/footer/slider/1.jpg">
+		  <img src="{{ base_url() }}/img/footer/slider/2.jpg">
+		  <img src="{{ base_url() }}/img/footer/slider/3.jpg">
+		  <img src="{{ base_url() }}/img/footer/slider/4.jpg">
+		  <img src="{{ base_url() }}/img/footer/slider/5.jpg">
+		  <img class="clone" src="{{ base_url() }}/img/footer/slider/1.jpg">
+		  <img class="clone" src="{{ base_url() }}/img/footer/slider/2.jpg">
+		  <img class="clone" src="{{ base_url() }}/img/footer/slider/3.jpg">
+		  <img class="clone" src="{{ base_url() }}/img/footer/slider/4.jpg">
+		  <img class="clone" src="{{ base_url() }}/img/footer/slider/5.jpg">
+	  </div>
       <div class="official-website">
         <p class="text-center">Site officiel de la région de Haute-Savoie <a href="#">http://www.haute-savoie-tourisme.org</a></p>
         <div class="text-center">

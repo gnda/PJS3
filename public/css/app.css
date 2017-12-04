@@ -1,25 +1,24 @@
-
 body {
   font-family: 'Lato', sans-serif;
-  font-size: 14px;
-  padding-top: 62px;
+  font-size: 100%;
+  padding-top: 6%;
 }
 
 .home-navbar{
   background-color: rgba(242, 242, 242, 1) !important;
-  border-top: 0px solid rgba(67, 108, 168, 0.28);
-  border-bottom: 0px solid rgba(67, 108, 168, 0.28);
   font-family: 'Open Sans', sans-serif;
+  position:relative;
 }
 
-.container{
-  max-width: 980px;
+.navbar {
+	position:fixed;
+	height:9%;
+	width:100%;
 }
 
-.home-navbar .navbar-nav .nav-item a{
+.home-navbar .navbar-nav .nav-item a,
+.home-navbar .social-icons .nav-item span{
   color: #696969 !important;
-  font-size: 16px;
-  padding: 0 15px;
   transition: color 0.4s ease 0s;
 }
 
@@ -27,7 +26,8 @@ body {
   color: #3AC0C7 !important;
 }
 
-.home-navbar .navbar-nav .nav-item a:hover{
+.home-navbar .navbar-nav .nav-item a:hover,
+.home-navbar .social-icons .nav-item span:hover{
   color: #3AC0C7 !important;
 }
 
@@ -35,66 +35,72 @@ body {
   color: #3AC0C7 !important;
 }
 
-.navbar-brand{
-  margin-right: 8px;
-}
-
 .navbar-brand img{
-  height: 36px;
+  height:100%;
+  width:50%;
+  margin-left:50%;
 }
 
 .home-navbar .social-icons .nav-item a{
-  padding: 6px !important;
+  padding: 14% !important;
 }
 
 .home-navbar .social-icons a span{
   color: #999999;
-  font-size: 23px;
+  font-size: 130%;
 }
 
 .footer .social{
   background-color: #38c1c7;
   color: #fff;
-  padding-bottom: 18px;
-  padding-top: 16px;
-  margin: 0;
+  padding-bottom: 1%;
+  padding-top: 1%;
 }
 
 .footer .social span{
-  font-size: 22px;
-  line-height: 15px;
+  font-size:140%;
+  line-height: 100%;
   position: relative;
-  top: 2px;
-}
-
-.footer .social div:last-child{
-  padding-right: 0;
+  margin-left: 5.5%;
+  margin-right: 14.5%;
+  left: 14%;
 }
 
 .official-website{
   background-color: rgba(105, 105, 105, 1);
-  border-top: 0px solid rgba(201, 201, 201, 1);
-  border-bottom: 0px solid rgba(201, 201, 201, 1);
-  padding: 10px 0;
-  padding-top: 18px;
+  padding: 1%;
+  padding-top: 1%;
 }
 
 .official-website p{
-  font-size: 20px;
+  font-size: 1vw;
   font-weight: 200;
   color: #fff;
-  margin-bottom: 5px;
+  margin-bottom: 1%;
 }
 
 .official-website p a{
   color: #3AC0C7;
-  margin-left: 10px
+  margin-left: 2%;
 }
 
 .back-to-top{
   cursor: pointer;
   color: rgb(107, 202, 204);
-  font-size: 28px;
+  font-size: 1.3vw;
+}
+
+#slider-footer{
+	display:flex;
+	overflow:hidden;
+}
+
+#slider-footer img{
+	flex-basis: 0%;
+	margin-left:-0.02%;
+	height:15vw;
+	width:19.77vw;
+	opacity:0.6;
 }
 
 h1{
@@ -121,28 +127,30 @@ h1{
 	-webkit-transition: color 0.3s;
 }
 
-@media screen and (min-width: 2278px){
+@media screen and (min-width: 2025px){
 	h1{
 		font-size: 1.8vw;
+		margin:0.2%;
 	}
 
 	.mini-menu label{
 		font-size: 0.7vw;
+		margin:0.2%;
+	}
+
+	.home-navbar .navbar-nav .nav-item a{
+		font-size: 0.8vw;
 	}
 }
 
 @media screen and (max-width: 1688px){
 	h1{
 		font-size: 3vw;
+		margin-bottom:0.6%;
 	}
-  
-    body, nav{
- width:800px;
-   margin-left: auto;
-   margin-right: auto;
-  }
 	
 	.mini-menu label{
 		font-size: 1vw;
+		margin:0.4%;
 	}
 }
