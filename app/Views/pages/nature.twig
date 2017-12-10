@@ -12,14 +12,20 @@
 			<label class="link-plateaux" for='activ-plt'>Plateaux</label>
 		</div>
 		<div id="nature-content">
-			<input checked type='radio' name='slider' id='slide1'/>
-			<input type='radio' name='slider' id='slide2'/>
-			<input type='radio' name='slider' id='slide3'/>
-			<input type='radio' name='slider' id='slide4'/>
-			<input type='radio' name='slider' id='slide5'/>
-			<input checked type='radio' name='choix' id='activ-lacs'/>
+			<input type='radio' name='choix' id='activ-lacs' checked />
 			<input type='radio' name='choix' id='activ-mlr'/>
 			<input type='radio' name='choix' id='activ-plt'/>
+			<input type='radio' name='lacs' id='lacs1' checked />
+			<input type='radio' name='lacs' id='lacs2'/>
+			<input type='radio' name='lacs' id='lacs3'/>
+			<input type='radio' name='mil_roc' id='mil_roc1' checked />
+			<input type='radio' name='mil_roc' id='mil_roc2'/>
+			<input type='radio' name='mil_roc' id='mil_roc3'/>
+			<input type='radio' name='mil_roc' id='mil_roc4'/>
+			<input type='radio' name='mil_roc' id='mil_roc5'/>
+			<input type='radio' name='plateaux' id='plateaux1' checked />
+			<input type='radio' name='plateaux' id='plateaux2'/>
+			<input type='radio' name='plateaux' id='plateaux3'/>
 			<div id="slider-nature">
 				<!-- <input checked type='radio' id="prev"> -->
 				<!-- <input type='radio' id="next"> -->
@@ -27,121 +33,136 @@
 					<!-- <label class="icon-left-open-big" for="prev"></label> -->
 					<!-- <label class="icon-right-open-big" for="next"></label> -->
 				<!-- </div> -->
-				<div class="icon lacs">
-					<img src="{{ base_url() }}/img/nature/lacs/lacs_icone.png">
-					<h1>Lacs</h1>
-				</div>
-				<div class="icon mil_roc disp-none">
-					<img src="{{ base_url() }}/img/nature/milieux_rocheux/mil_roch_icone.png">
-					<h1>Milieux Rocheux</h1>
-				</div>
-				<div class="icon plateaux disp-none">
-					<img src="{{ base_url() }}/img/nature/plateaux/plateaux_icone.png">
-					<h1>Plateaux</h1>
-				</div>
-				<div class="item lacs">
-					<img src="{{ base_url() }}/img/nature/lacs/lac_leman.jpg">
-					<div class="texte">
-						<h3>Le lac l&eacute;man</h3>,  du latin Lac Lemanus, connu &eacute;galement sous le nom de lac de 
-						Gen&egrave;ve, est situ&eacute; &agrave; la fois en France et en Suisse. Il s&rsquo;agit 
-						du plus grand lac alpin d&rsquo;Europe centrale. </br></br> Il mesure pr&egrave;s de 73 km de 
-						longueur et atteint 14 km de largeur. Issu d&rsquo;un glacier, ce lac offre des points de 
-						vue remarquables notamment au niveau des couleurs. Il s&rsquo;agit d&rsquo;un v&eacute;ritable 
-						point de rendez-vous genevois de part son attractivit&eacute;, et ses diverses activit&eacute;s 
-						nautiques.
+				<div id="lacs-container" class="lacs">
+					<div class="icon lacs">
+						<img src="{{ base_url() }}/img/nature/lacs/lacs_icone.png">
+						<h1>Lacs</h1>
+					</div>
+					<div class="item lacs">
+						<img src="{{ base_url() }}/img/nature/lacs/lac_leman.jpg">
+						<div class="texte">
+							<h3>Le lac l&eacute;man</h3>,  du latin Lac Lemanus, connu &eacute;galement sous le nom de lac de 
+							Gen&egrave;ve, est situ&eacute; &agrave; la fois en France et en Suisse. Il s&rsquo;agit 
+							du plus grand lac alpin d&rsquo;Europe centrale. </br></br> Il mesure pr&egrave;s de 73 km de 
+							longueur et atteint 14 km de largeur. Issu d&rsquo;un glacier, ce lac offre des points de 
+							vue remarquables notamment au niveau des couleurs. Il s&rsquo;agit d&rsquo;un v&eacute;ritable 
+							point de rendez-vous genevois de part son attractivit&eacute;, et ses diverses activit&eacute;s 
+							nautiques.
+						</div>
+					</div>
+					<div class="item lacs">
+						<img src="{{ base_url() }}/img/nature/lacs/lac_annecy.jpg">
+						<div class="texte">
+							Connaissez-vous le lac bleu ? Peut-&ecirc;tre que son v&eacute;ritable nom, &ldquo;
+							le <h3>lac d&rsquo;Annecy</h3>&rdquo;, semble plus familier. En effet, ce lac, &eacute;galement
+							d&rsquo;origine glaciaire, s&rsquo;est form&eacute; il y a environ 18 000 ans. Il puise
+							ses eaux des montagnes avoisinantes via les torrents du Laudon, et de l&rsquo;Ire notamment.
+							Il a une superficie de 27,6 km&sup2; et sa profondeur est de 82 m. </br></br> On peut dire qu&rsquo;
+							il s&rsquo;agit d&rsquo;un tr&egrave;s beau lac situ&eacute; au milieu d&rsquo;un paysage montagnard magnifique.
+							Il est possible de se balader en v&eacute;lo autour du lac et de s&rsquo;y baigner.
+						</div>
 					</div>
 				</div>
-				<div class="item lacs">
-					<img src="{{ base_url() }}/img/nature/lacs/lac_annecy.jpg">
-					<div class="texte">
-						Connaissez-vous le lac bleu ? Peut-&ecirc;tre que son v&eacute;ritable nom, &ldquo;
-						le <h3>lac d&rsquo;Annecy</h3>&rdquo;, semble plus familier. En effet, ce lac, &eacute;galement
-						d&rsquo;origine glaciaire, s&rsquo;est form&eacute; il y a environ 18 000 ans. Il puise
-						ses eaux des montagnes avoisinantes via les torrents du Laudon, et de l&rsquo;Ire notamment.
-						Il a une superficie de 27,6 km&sup2; et sa profondeur est de 82 m. </br></br> On peut dire qu&rsquo;
-						il s&rsquo;agit d&rsquo;un tr&egrave;s beau lac situ&eacute; au milieu d&rsquo;un paysage montagnard magnifique.
-						Il est possible de se balader en v&eacute;lo autour du lac et de s&rsquo;y baigner.
+				<div id="mil_roc-container" class="mil_roc">
+					<div class="icon mil_roc">
+						<img src="{{ base_url() }}/img/nature/milieux_rocheux/mil_roch_icone.png">
+						<h1>Milieux Rocheux</h1>
+					</div>
+					<div class="item mil_roc">
+						<img src="{{ base_url() }}/img/nature/milieux_rocheux/aiguille_du_midi.jpg">
+						<div class="texte">
+							En plein coeur du massif du Mont-Blanc, situ&eacute; &agrave; pr&egrave;s de 3842 m d&rsquo;altitude,
+							l'<h3>Aiguille du Midi</h3> correspond &agrave; la plus haute des aiguilles de Chamonix. Vous serez subjugu&eacute;s
+							par le panorama sur le Mont-Blanc qui s&rsquo;offre &agrave; vous. Laissez vous emporter par la magie de ce
+							lieu d&egrave;s votre entr&eacute;e dans le t&eacute;l&eacute;ph&eacute;rique.   </br></br>Il est pr&eacute;f&eacute;rable
+							de s&rsquo;y rendre en p&eacute;riode estivale pour profiter de la beaut&eacute; des lieux. Vous h&eacute;sitez
+							encore ? N&rsquo;ayez aucune crainte, le personnel assurera votre s&eacute;curit&eacute;.
+						</div>
+					</div>
+					<div class="item mil_roc">
+						<img src="{{ base_url() }}/img/nature/milieux_rocheux/mer_de_glace.jpg">
+						<div class="texte">
+							<h3>La Mer de Glace</h3> constitue un glacier alpin situ&eacute; dans le massif du Mont-Blanc. Mesurant pr&egrave;s de 7 km
+							de longueur et ayant une superficie de 40 km&sup2;, il attire pr&egrave;s d&rsquo;un million de visiteurs par an. Malheureusement
+							il ne reste pas grand chose de la Mer de Glace de nos jours ! En effet, des roches viennent substituer les parois glac&eacute;es
+							de ce lieu. Cela est une cons&eacute;quence du r&eacute;chauffement climatique. N&eacute;anmoins le paysage reste tr&egrave;s 
+							agr&eacute;able &agrave; observer et le tout vaut vraiment le d&eacute;tour !
+						</div>
+					</div>
+					<div class="item mil_roc">
+						<img src="{{ base_url() }}/img/nature/milieux_rocheux/mont_blanc.jpg">
+						<div class="texte">
+							En parlant de lui, voici l&rsquo;incontournable <h3>Mont-Blanc</h3>. Constituant le point culminant des Alpes, il s&rsquo;agit plus haut
+							Massif connu en Europe occidentale. En effet, du haut de ses 4809 m&egrave;tres, son ascension semble p&eacute;rilleuse a premi&egrave;re
+							vue. Cependant avec une bonne pr&eacute;paration et un guide, il est parfaitement possible d&rsquo;atteindre son sommet aujourd&rsquo;hui.
+							</br></br> Ce Massif est d&rsquo;ailleurs localis&eacute; entre la France et le nord de l&rsquo;Italie. Profitez de magnifiques levers et couchers
+							de soleil au cours de cette exp&eacute;rience unique.
+						</div>
+					</div>
+					<div class="item mil_roc">
+						<img src="{{ base_url() }}/img/nature/milieux_rocheux/gorges_du_fier.jpg">
+						<div class="texte">
+							Constituant une v&eacute;ritable curiosit&eacute; naturelle, les <h3>Gorges du Fier</h3> sont une v&eacute;ritable attraction en Haute-Savoie. En effet,
+							il est dit que c&rsquo;est le torrent du Fier qui a donn&eacute; naissance &agrave; ce lieu en taillant des roches de calcaire par son puissant flot.
+							Venez donc contempler les 25 m&egrave;tres de profondeur de ce lieu en empruntant une passerelle mesurant pr&egrave;s de 300 m&egrave;tres de longueur !
+							Faites attention, surtout si vous avez le vertige&#8230; Mais n&rsquo;ayez crainte, votre parcours sera assur&eacute; par un guide qui veillera &agrave;
+							votre s&eacute;curit&eacute; ! Alors qu&rsquo;attendez vous ?
+						</div>
 					</div>
 				</div>
-				<div class="item mil_roc disp-none">
-					<img src="{{ base_url() }}/img/nature/milieux_rocheux/aiguille_du_midi.jpg">
-					<div class="texte">
-						En plein coeur du massif du Mont-Blanc, situ&eacute; &agrave; pr&egrave;s de 3842 m d&rsquo;altitude,
-						l'<h3>Aiguille du Midi</h3> correspond &agrave; la plus haute des aiguilles de Chamonix. Vous serez subjugu&eacute;s
-						par le panorama sur le Mont-Blanc qui s&rsquo;offre &agrave; vous. Laissez vous emporter par la magie de ce
-						lieu d&egrave;s votre entr&eacute;e dans le t&eacute;l&eacute;ph&eacute;rique.   </br></br>Il est pr&eacute;f&eacute;rable
-						de s&rsquo;y rendre en p&eacute;riode estivale pour profiter de la beaut&eacute; des lieux. Vous h&eacute;sitez
-						encore ? N&rsquo;ayez aucune crainte, le personnel assurera votre s&eacute;curit&eacute;.
+				<div id="plateaux-container" class="plateaux">
+					<div class="icon plateaux">
+						<img src="{{ base_url() }}/img/nature/plateaux/plateaux_icone.png">
+						<h1>Plateaux</h1>
+					</div>
+					<div class="item plateaux">
+						<img src="{{ base_url() }}/img/nature/plateaux/puy_de_dome.jpg">
+						<div class="texte">
+							Avez vous d&eacute;j&agrave; vu un volcan de pr&egrave;s ? Non ? Eh bien venez visiter le <h3>Puy de D&ocirc;me</h3>. Ne vous inqui&eacute;tez pas, ce volcan n&rsquo;
+							est plus actif depuis pr&egrave;s de 11000 ans... Il fait d&rsquo;ailleurs parti du r&eacute;seau des grands sites de France. Mesurant environ 1,465 km de hauteur,
+							vous serez &eacute;poustoufl&eacute;s une fois au sommet par la vue qui s&rsquo;offre &agrave; vous, n&rsquo;h&eacute;sitez donc pas &agrave; visiter ce lieu avec
+							vos amis et votre famille !
+						</div>
+					</div>
+					<div class="item plateaux">
+						<img src="{{ base_url() }}/img/nature/plateaux/gorges_de_l_ardeche.jpg">
+						<div class="texte">
+							<h3>Les gorges de l'Ard&egrave;che</h3>, faisant &eacute;galement partie du r&eacute;seau des grands sites de France, mesurent pr&egrave;s de 30 km de longueur ! 
+							Constituant un v&eacute;ritable canyon, venez contempler le pont d&rsquo;Arc ainsi que le cirque de la madeleine. Il s&rsquo;agit de v&eacute;ritables prouesses 
+							de la nature ! Ce lieu aux aspects f&eacute;&eacute;riques vaut la peine d&rsquo;&ecirc;tre vu au moins une fois dans sa vie !
+						</div>
 					</div>
 				</div>
-				<div class="item mil_roc disp-none">
-					<img src="{{ base_url() }}/img/nature/milieux_rocheux/mer_de_glace.jpg">
-					<div class="texte">
-						<h3>La Mer de Glace</h3> constitue un glacier alpin situ&eacute; dans le massif du Mont-Blanc. Mesurant pr&egrave;s de 7 km
-						de longueur et ayant une superficie de 40 km&sup2;, il attire pr&egrave;s d&rsquo;un million de visiteurs par an. Malheureusement
-						il ne reste pas grand chose de la Mer de Glace de nos jours ! En effet, des roches viennent substituer les parois glac&eacute;es
-						de ce lieu. Cela est une cons&eacute;quence du r&eacute;chauffement climatique. N&eacute;anmoins le paysage reste tr&egrave;s 
-						agr&eacute;able &agrave; observer et le tout vaut vraiment le d&eacute;tour !
-					</div>
-				</div>
-				<div class="item mil_roc disp-none">
-					<img src="{{ base_url() }}/img/nature/milieux_rocheux/mont_blanc.jpg">
-					<div class="texte">
-						En parlant de lui, voici l&rsquo;incontournable <h3>Mont-Blanc</h3>. Constituant le point culminant des Alpes, il s&rsquo;agit plus haut
-						Massif connu en Europe occidentale. En effet, du haut de ses 4809 m&egrave;tres, son ascension semble p&eacute;rilleuse a premi&egrave;re
-						vue. Cependant avec une bonne pr&eacute;paration et un guide, il est parfaitement possible d&rsquo;atteindre son sommet aujourd&rsquo;hui.
-						</br></br> Ce Massif est d&rsquo;ailleurs localis&eacute; entre la France et le nord de l&rsquo;Italie. Profitez de magnifiques levers et couchers
-						de soleil au cours de cette exp&eacute;rience unique.
-					</div>
-				</div>
-				<div class="item mil_roc disp-none">
-					<img src="{{ base_url() }}/img/nature/milieux_rocheux/gorges_du_fier.jpg">
-					<div class="texte">
-						Constituant une v&eacute;ritable curiosit&eacute; naturelle, les <h3>Gorges du Fier</h3> sont une v&eacute;ritable attraction en Haute-Savoie. En effet,
-						il est dit que c&rsquo;est le torrent du Fier qui a donn&eacute; naissance &agrave; ce lieu en taillant des roches de calcaire par son puissant flot.
-						Venez donc contempler les 25 m&egrave;tres de profondeur de ce lieu en empruntant une passerelle mesurant pr&egrave;s de 300 m&egrave;tres de longueur !
-						Faites attention, surtout si vous avez le vertige&#8230; Mais n&rsquo;ayez crainte, votre parcours sera assur&eacute; par un guide qui veillera &agrave;
-						votre s&eacute;curit&eacute; ! Alors qu&rsquo;attendez vous ?
-					</div>
-				</div>
-				<div class="item plateaux disp-none">
-					<img src="{{ base_url() }}/img/nature/plateaux/puy_de_dome.jpg">
-					<div class="texte">
-						Avez vous d&eacute;j&agrave; vu un volcan de pr&egrave;s ? Non ? Eh bien venez visiter le <h3>Puy de D&ocirc;me</h3>. Ne vous inqui&eacute;tez pas, ce volcan n&rsquo;
-						est plus actif depuis pr&egrave;s de 11000 ans... Il fait d&rsquo;ailleurs parti du r&eacute;seau des grands sites de France. Mesurant environ 1,465 km de hauteur,
-						vous serez &eacute;poustoufl&eacute;s une fois au sommet par la vue qui s&rsquo;offre &agrave; vous, n&rsquo;h&eacute;sitez donc pas &agrave; visiter ce lieu avec
-						vos amis et votre famille !
-					</div>
-				</div>
-				<div class="item plateaux disp-none">
-					<img src="{{ base_url() }}/img/nature/plateaux/gorges_de_l_ardeche.jpg">
-					<div class="texte">
-						<h3>Les gorges de l'Ard&egrave;che</h3>, faisant &eacute;galement partie du r&eacute;seau des grands sites de France, mesurent pr&egrave;s de 30 km de longueur ! 
-						Constituant un v&eacute;ritable canyon, venez contempler le pont d&rsquo;Arc ainsi que le cirque de la madeleine. Il s&rsquo;agit de v&eacute;ritables prouesses 
-						de la nature ! Ce lieu aux aspects f&eacute;&eacute;riques vaut la peine d&rsquo;&ecirc;tre vu au moins une fois dans sa vie !
-					</div>
-				</div>
-				<!-- <span class="slider-dots" onclick="currentDiv(1)">.</span> -->
 			</div>
-			<div id="commands">
-				<label for='slide1'></label>
-				<label for='slide2'></label>
-				<label for='slide3'></label>
-				<label for='slide4'></label>
-				<label for='slide5'></label>
+			<div id="commandes">
+				<label class="lacs" for='lacs1'></label>
+				<label class="lacs" for='lacs2'></label>
+				<label class="lacs" for='lacs3'></label>
+				<label class="mil_roc" for='mil_roc1'></label>
+				<label class="mil_roc" for='mil_roc2'></label>
+				<label class="mil_roc" for='mil_roc3'></label>
+				<label class="mil_roc" for='mil_roc4'></label>
+				<label class="mil_roc" for='mil_roc5'></label>
+				<label class="plateaux" for='plateaux1'></label>
+				<label class="plateaux" for='plateaux2'></label>
+				<label class="plateaux" for='plateaux3'></label>
 			</div>
-			<div id="active">
-				<label for='slide1'></label>
-				<label for='slide2'></label>
-				<label for='slide3'></label>
-				<label for='slide4'></label>
-				<label for='slide5'></label>
+			<div id="actifs">
+				<label class="lacs" for='lacs1'></label>
+				<label class="lacs" for='lacs2'></label>
+				<label class="lacs" for='lacs3'></label>
+				<label class="mil_roc" for='mil_roc1'></label>
+				<label class="mil_roc" for='mil_roc2'></label>
+				<label class="mil_roc" for='mil_roc3'></label>
+				<label class="mil_roc" for='mil_roc4'></label>
+				<label class="mil_roc" for='mil_roc5'></label>
+				<label class="plateaux" for='plateaux1'></label>
+				<label class="plateaux" for='plateaux2'></label>
+				<label class="plateaux" for='plateaux3'></label>
 			</div>
 		</div>
 	</div>
 	
-
-
 {% endblock %}
 
 {% block js %}<script src="{{ base_url() }}/js/nature/nature.js"></script>{% endblock %}
