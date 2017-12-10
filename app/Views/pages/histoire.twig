@@ -10,7 +10,7 @@
 	
 	
 	<div id="histoire">
-		<h1>Histoire</h1>
+		<h1>Histoire de la Haute-Savoie</h1>
 		<div class="mini-menu">
 			<label class="link-lacs">Préhistoire</label>
 			<label class="link-mil-roc">Antiquité</label>
@@ -19,13 +19,26 @@
 			<label class="link-plateaux">Epoque Contemporaine</label>
 		</div>
 		
+		
+		
+		<div class="phrise">
+	<img src="../../../../PJS3/public/img/histoire/figure1.svg">
+	</div>
+	
+	
 	
 			<div class="colonne">
+			
+			
+			
 			
 				<colonne_gauche><h2>Préhistoire</h2>
 					<center><div class="home-intro-delimiter"></div></center>
 					
 						<div align="justify">
+						<br/>
+						<br/>
+						
 						<p>On retrouve aujourd’hui dans la région des traces datant d’une période très ancienne. 
 						En effet, il y a  en Ardèche des gravures dans la grotte Chauvet qui constituent les plus
 						vieilles traces d’occupation humaine de la région.
@@ -36,8 +49,8 @@
 						</div>
 						
 						
-					<div style="margin-top:14em; margin-bottom:40em;">
-						<img src="../../../../PJS3/public/img/histoire/antiquite.png" width="80%" align="right">
+					<div class="image_anti">
+						<img src="../../../../PJS3/public/img/histoire/antiquite.png">
 					</div>
 					
 						<div align="justify">
@@ -54,15 +67,16 @@
 						</p>
 						</div>
 						
-					<div style="margin-top:14em; margin-bottom:40em;">
-						<img src="../../../../PJS3/public/img/histoire/moyen_age.png" width="80%" align="right">
+					<div class="image_moyenage">
+						<img src="../../../../PJS3/public/img/histoire/moyen_age.png">
 					</div>
 					
-				<div style="margin-top:43em">	
+				<div class="moderne">	
 					<h2>Epoque Moderne</h2>
 					<center><div class="home-intro-delimiter"></div></center>	
 				</div>	
-						<div align="justify">						
+						<div align="justify">
+						<br/>
 						<p>La région voit ensuite sa taille augmenter avec l’ajout du Bugey et du pays de Gex en 1601 
 						par le traité de Lyon.
 						<br/><br/>
@@ -70,8 +84,8 @@
 						</p>
 						</div>
 
-					<div style="margin-top:18em; margin-bottom:40em;">
-						<img src="../../../../PJS3/public/img/histoire/epoque_contemporaine.png" width="80%" align="right">
+					<div class="image_contemporaine">
+						<img src="../../../../PJS3/public/img/histoire/epoque_contemporaine.png">
 					</div>
 				
 						
@@ -80,11 +94,14 @@
 				
 				<colonne_droite>
 				
-				<img src="../../../../PJS3/public/img/histoire/cheval_pre.jpg">
 				
-					<div style="margin-top:3em">
+				
+				
+				<img id="cheval_prehistoire" src="../../../../PJS3/public/img/histoire/cheval_pre.jpg" >
+				
+					<div class="para_droite_anti">
 						<h2>Antiquité</h2>
-					</div>
+					
 					<center><div class="home-intro-delimiter"></div></center>
 					
 						<div align="justify">
@@ -101,15 +118,16 @@
 						L’Occupation romaine aura duré près de 500 ans !
 						</p>
 						</div>
+						</div>
 						
-				<div style="margin-top:8em;">	
-					<img src="../../../../PJS3/public/img/histoire/antiquite_2.jpg" width="80%">	
+				<div class="image_anti_deux">	
+					<img src="../../../../PJS3/public/img/histoire/antiquite_2.jpg">	
 				</div>
 				
-				<div style="margin-top:8em">
+				<div class="moyenage">
 					<h2>Moyen-Age</h2>
 					<center><div class="home-intro-delimiter"></div></center>
-				</div>
+				
 				
 						<div align="justify">
 						<p>Jusqu’au début du XIVème siècle, on constate que le Rhône sert de délimitation physique
@@ -126,15 +144,17 @@
 						(ayant gouverné de 872 à 886) et Guillaume Tête d’Étoupe (présent de 950 à 963).
 						</p>
 						</div>
+				</div>
 				
-				<div style="margin-top:2em;">	
-					<center><img src="../../../../PJS3/public/img/histoire/epoque_moderne.png" width="70%"></center>
+				
+				<div class="image_moderne">	
+					<center><img src="../../../../PJS3/public/img/histoire/epoque_moderne.png"></center>
 				</div>	
 
-				<div style="margin-top:3em">
+				<div class="contemporain">
 					<h2>Epoque Contemporaine</h2>
 					<center><div class="home-intro-delimiter"></div></center>
-				</div>	
+					
 
 						<div align="justify">				
 						<p>On constate un essor des métiers à tisser à Lyon et dans les autres départements vers 1870. La soierie se 
@@ -148,7 +168,7 @@
 						On constate notamment un déplacement de population active du massif central vers le nord pour des raisons similaires
 						</p>
 						</div>
-				
+				</div>
 				
 				
 				
@@ -163,6 +183,5 @@
 
 {% endblock %}
 
-{# j'ai mis des .js vides, supprimez-les si vous ne les utilisez pas... #}
 
 {% block js %}<script src="{{ base_url() }}/js/histoire/histoire.js"></script>{% endblock %}
