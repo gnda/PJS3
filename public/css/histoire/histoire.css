@@ -1,9 +1,46 @@
+.mini-menu{
+	text-align:center;
+	padding: 10px 0px 10px 50px;
+}
+
+.mini-menu label{
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-weight:bold;
+  	padding: 0px 25px 0px 0px;
+  	font-size: 120%;
+  	color:black;
+  	text-decoration:none;
+}
+
+.mini-menu label:hover{
+  	text-decoration:inherit;
+  	color: #3AC0C7;
+  	-webkit-transition: color 0.3s;
+}
+
+
+#histoire{
+  padding: 30px 0px 0px 0px;
+
+  
+}
+
+#histoire h1{
+	text-align:center;
+	font-family:playfair display,serif;
+	font-weight:bold;
+	color: #278085;
+  	font-size: 44px;
+}
+
 #histoire h2{
 	text-align:center;
 	font-family:book antiqua,serif;
 	color:black;
   	font-size: 30px;
 }
+
+
 
 .home-intro-delimiter{
 	
@@ -13,7 +50,7 @@
 
 .colonne {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+
   grid-template-rows: 50%;
   grid-auto-flow: column;
 }
@@ -33,7 +70,75 @@ p {
 	font-weight:300;
 }
 
+.phrise img {
+	position:absolute;
+	margin-right:%;	
+	margin-left:-3%;
+	height:3050px;
+}
 
+#cheval_prehistoire {
+	margin-top: 10%;
+	margin-left:3%
+}
+
+.para_droite_anti {
+	margin-left: 15%;
+	margin-top: 10%;
+	
+}
+
+.image_anti img {
+	margin-top:50%;
+	margin-bottom: 25%;
+	text-align:right;
+	width:110%;
+	margin-left:9%;
+}
+
+.image_anti_deux img {
+	margin-top:6em;
+	margin-left:15px;
+	 width:95%;
+
+}
+.moyenage {
+	margin-top:6em;
+	margin-left: 15%;
+}
+
+.image_moyenage img {
+	
+	text-align:right;
+	width:110%;
+	margin-top:20%;
+	margin-bottom:30%;
+	margin-left: 9%;
+
+	 
+}
+
+.contemporain {
+	margin-top:10.5%;
+	margin-left: 15%;
+}
+
+.image_contemporaine img {
+
+	width:110%;
+	margin-left:9%;
+	margin-top:50%;
+	text-align:right;
+}
+.moderne {
+	margin-top:10%;
+} 
+
+.image_moderne img {
+
+	 width:65%;
+	margin-left:5%;
+}
 
 
 
