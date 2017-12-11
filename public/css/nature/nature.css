@@ -233,7 +233,7 @@ input[name='plateaux'], input[name='choix']{
 #plateaux3:checked ~ #commandes .plateaux:nth-child(9),
 #plateaux1:checked ~ #commandes .plateaux:nth-child(10),
 #plateaux2:checked ~ #commandes .plateaux:nth-child(11){
-	background:url('/public/img/nature/right-arrow.png') no-repeat;
+	background:url('../../img/logo.png') no-repeat;
 	height:5vw;
 	width:5vw;
 	margin-top:-11.5vw;
@@ -251,7 +251,7 @@ input[name='plateaux'], input[name='choix']{
 #plateaux3:checked ~ #commandes .plateaux:nth-child(10),
 #plateaux1:checked ~ #commandes .plateaux:nth-child(11),
 #plateaux2:checked ~ #commandes .plateaux:nth-child(9){
-	background:url('/public/img/nature/left-arrow.png') no-repeat;
+	background:url('../../img/logo.png') no-repeat;
 	height:5vw;
 	width:5vw;
 	margin-top:-11.5vw;

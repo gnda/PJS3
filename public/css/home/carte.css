@@ -18,3 +18,7 @@ g:hover, #auv-rhone-alp:hover{
 @keyframes clign {  
   50% { fill:#38c1c7; }
 }
+
+#prov-alp-cot a ~ polygon{
+  display:none;
+}
