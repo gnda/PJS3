@@ -1,3 +1,37 @@
+.mini-menu{
+	text-align:center;
+	padding: 10px 0px 10px 50px;
+}
+
+.mini-menu label{
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-weight:bold;
+  	padding: 0px 25px 0px 0px;
+  	font-size: 120%;
+  	color:black;
+  	text-decoration:none;
+}
+
+.mini-menu label:hover{
+  	text-decoration:inherit;
+  	color: #3AC0C7;
+  	-webkit-transition: color 0.3s;
+}
+
+
+#histoire{
+  padding: 30px 0px 0px 0px;
+
+  
+}
+
+#histoire h1{
+	text-align:center;
+	font-family:playfair display,serif;
+	font-weight:bold;
+	color: #278085;
+  	font-size: 44px;
+}
 #histoire h2{
 	text-align:center;
 	font-family:book antiqua,serif;
@@ -25,7 +59,7 @@ colonne_droite {
 }
 
 p {
-	margin: 2em;
+	margin: 2em 0em 2em 2em;
 	font-size: 15px;
 	color:#696969;
 	font-weight:300;
@@ -52,8 +86,8 @@ p {
 }
 
 .image_anti img {
-	margin-top:50%;
-	margin-bottom: 25%;
+	margin-top:30%;
+	margin-bottom: 20%;
 	text-align:right;
 	width:110%;
 	margin-left:9%;
@@ -74,7 +108,7 @@ p {
 	text-align:right;
 	width:110%;
 	margin-top:20%;
-	margin-bottom:30%;
+	margin-bottom:10%;
 	margin-left: 9%;
 }
 
@@ -86,7 +120,7 @@ p {
 .image_contemporaine img {
 	width:110%;
 	margin-left:9%;
-	margin-top:50%;
+	margin-top:35%;
 	text-align:right;
 }
 
@@ -112,3 +146,33 @@ p {
 		width:116.5%;
 	}
 }
+
+
+a:link 
+{ 
+	text-decoration:none;
+	color:black;
+	
+}
+
+a:hover 
+{ 
+	text-decoration:inherit;
+  	color: #3AC0C7;
+  	-webkit-transition: color 0.3s;
+	
+}
+
+a
+{ 
+	color:black;
+	
+}
+
+.block {
+	
+	
+	margin-bottom:20px;
+	
+}
+
