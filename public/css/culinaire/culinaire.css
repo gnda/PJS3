@@ -1,0 +1,102 @@
+/* Style CSS pour la page culinaire */
+/*<img src="../../img/culinaire/tacos.jpg');" alt="tacos" width="500" height="600">*/
+
+	
+	#CulinaireGlobal {
+		text-align: center;
+    	background-size: 50% 100%;
+        background-position: right;
+    	display: flex;
+		flex-direction: column;
+    	align-content: stretch;
+        background-repeat: no-repeat;
+        color: white;
+    	background-color: #39bfc7;
+		margin-left: auto;
+		margin-right: auto;
+		width: 800px;
+    }
+	
+	#CulinaireGlobal p {
+		text-align: center;
+		background-size: 50% 100%;
+        background-position: right;
+    	display: flex;
+		flex-direction: column;
+    	align-content: stretch;
+        background-repeat: no-repeat;
+        color: white;
+    	background-color: #39bfc7;
+    	padding: 2% 4% 2% 4%;
+	}
+	#Center {
+		text-align: center;
+    	display: flex;
+		flex-direction: column;
+    	align-content: stretch;
+        background-repeat: no-repeat;
+        color: white;
+	}
+	#Center img{
+		display: inline-block;
+		margin-top:4%;
+		margin-left: auto;
+		margin-right: auto
+	}
+	
+	
+   h2 {
+        
+        margin: auto;
+        padding-bottom: 1%;
+        font-size: 16px;
+        line-height: 1.5;
+        font-weight: bold;
+		width: 700px;
+    }
+
+    #page_culinaire p {
+        text-align: justify;
+    }
+
+    #haut-de-page{
+		text-align: center;
+		color: #268085;
+		width: 390px;
+		position: relative;
+		margin: 3% auto;
+		margin-top: 6%;
+    }
+	
+	#haut-de-page h2{
+		text-align: center;
+		color: #268085;
+		width: 390px;
+		position: relative;
+		margin: 3% auto;
+		margin-top: 6%;
+    }
+	#intro {
+		text-align: justify;
+		color: black;
+		width: 700px;
+		position: relative;
+		font-size: 18px;
+    }
+	#haut-de-page span{ 
+		position: absolute;
+		top: -24px;
+		left: -35px;
+		font-family: serif;
+		font-size: 30px;
+	}
+
+    
+
+    #page_culinaire {
+        margin-bottom: 15%;
+    }
+
+    a {
+        color: white;
+    }
