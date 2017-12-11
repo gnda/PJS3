@@ -50,6 +50,30 @@ body {
   font-size: 130%;
 }
 
+h1{
+	text-align:center;
+	font-family:playfair display,serif;
+	font-weight:bold;
+	color: #278085;
+}
+
+.mini-menu{
+	text-align:center;
+	padding: 0.7% 0% 2% 4%;
+}
+
+.mini-menu label{
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-weight:bold;
+	padding-right: 2%;
+	color:black;
+}
+
+.mini-menu label:hover{
+	color: #3AC0C7;
+	-webkit-transition: color 0.3s;
+}
+
 .footer .social{
   background-color: #38c1c7;
   color: #fff;
@@ -108,28 +132,17 @@ body {
 	transition: ease opacity 0.6s;
 }
 
-h1{
-	text-align:center;
-	font-family:playfair display,serif;
-	font-weight:bold;
-	color: #278085;
+#img1{
+	-webkit-animation: cycle 25s cubic-bezier(0.42, 0, 0.32, 0.99) infinite;
 }
 
-.mini-menu{
-	text-align:center;
-	padding: 0.7% 0% 2% 4%;
-}
-
-.mini-menu label{
-	font-family: "Trebuchet MS", Helvetica, sans-serif;
-	font-weight:bold;
-	padding-right: 2%;
-	color:black;
-}
-
-.mini-menu label:hover{
-	color: #3AC0C7;
-	-webkit-transition: color 0.3s;
+@-webkit-keyframes cycle {
+	0% { margin-left:0vw; }
+	2%,10%,20% { margin-left:-19.7vw; }
+	22%,30%,40% { margin-left:-39.35vw; }
+	42%,50%,60% { margin-left:-59.1vw; }
+	62%,70%,80% { margin-left:-78.8vw; }
+	82%,90%,100% { margin-left:-98.7vw; }
 }
 
 @media screen and (min-width: 2025px){

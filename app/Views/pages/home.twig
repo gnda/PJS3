@@ -1,6 +1,7 @@
 {% extends "layout.twig" %}
 
 {% block css %}
+
 <link href="{{ base_url() }}/css/home/home.css" rel="stylesheet">
 <link href="{{ base_url() }}/css/font/lemon/stylesheet.css" rel="stylesheet">
 
@@ -34,21 +35,21 @@
         <div class="row home-imgs">
             <div class="col-md-4 home-imgs-box">
                 <div class="d-flex align-items-end justify-content-center">
-                    <p>Histoire</p>
+                    <a class="nav-link" href="histoire">Histoire</a>
                 </div>
             </div>
             <div class="col-md-4 home-imgs-box">
                 <div class="d-flex align-items-end justify-content-center">
-                    <p>Nature</p>
+                    <a class="nav-link" href="nature">Nature</a>
                 </div>
             </div>
             <div class="col-md-4 home-imgs-box">
                 <div class="d-flex align-items-end justify-content-center">
-                    <p>Grandes Villes</p>
+                    <a class="nav-link" href="grandes_villes">Grandes Villes</a>
                 </div>
             </div>
         </div>
-
+		<object type="image/svg+xml" data="{{ base_url() }}/svg/home/carte.svg"></object>
     </main>
 
 {% endblock %}

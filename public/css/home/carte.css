@@ -1,0 +1,20 @@
+#france, #dom{
+    fill:#c7c7c7;
+}
+
+#auv-rhone-alp{
+    animation: clign 3s linear infinite;
+}
+
+#dom g:hover{
+    fill:#ffc193;
+}
+
+g:hover, #auv-rhone-alp:hover{
+    fill:#38c1c7;
+    transition:all 0.1s linear;
+}
+
+@keyframes clign {  
+  50% { fill:#38c1c7; }
+}

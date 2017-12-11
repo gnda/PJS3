@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    $("#owl-footer").owlCarousel({
+   /* $("#owl-footer").owlCarousel({
         center: true,
         loop: true,
         dots: false,
@@ -7,7 +7,7 @@ $(document).ready(function(){
         autoplay: true,
         autoplayTimeout: 4000,
         autoplaySpeed: 700
-    });
+    });*/
 
     $(".back-to-top").click(function(){
         $("html,body").animate({
@@ -16,4 +16,3 @@ $(document).ready(function(){
         return false
     });
 });
-
