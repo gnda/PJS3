@@ -181,8 +181,6 @@ input[name='plateaux'], input[name='choix']{
 }
 
 #commandes label{
-	width: 50%;
-	height:100%;
 	opacity:0.5;
 }
 

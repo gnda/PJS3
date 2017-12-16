@@ -1,7 +1,7 @@
 body {
   font-family: 'Lato', sans-serif;
-  font-size: 100%;
-  padding-top: 6%;
+  padding-top: 120px;
+  overflow-x: hidden;
 }
 
 .home-navbar{
@@ -12,8 +12,15 @@ body {
 
 .navbar {
 	position:fixed;
-	height:9%;
 	width:100%;
+}
+
+.navbar .container div{
+	width:5%;
+}
+
+.home-navbar .navbar-nav .nav-item a{
+	font-size:17px;
 }
 
 .home-navbar .navbar-nav .nav-item a,
@@ -45,9 +52,10 @@ body {
   padding: 14% !important;
 }
 
-.home-navbar .social-icons a span{
+.home-navbar .social-icons span {
   color: #999999;
-  font-size: 130%;
+  font-size: 22px;
+  padding-right:2px;
 }
 
 h1{
@@ -55,17 +63,19 @@ h1{
 	font-family:playfair display,serif;
 	font-weight:bold;
 	color: #278085;
+	font-size: 2.5vw;
 }
 
 .mini-menu{
 	text-align:center;
-	padding: 0.7% 0% 2% 4%;
+	padding: 0.9% 0% 1.7% 4.2%;
 }
 
 .mini-menu label{
+	font-size: 1vw;
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
 	font-weight:bold;
-	padding-right: 2%;
+	padding-right: 2.3%;
 	color:black;
 }
 
@@ -81,26 +91,42 @@ h1{
   padding-top: 1%;
 }
 
-.footer .social span{
-  font-size:140%;
-  line-height: 100%;
+.footer .social{
+	text-align:center;
+}
+
+.footer .social a {
+  font-size:110%;
+  line-height: 10px;
   position: relative;
-  margin-left: 5.5%;
-  margin-right: 14.5%;
-  left: 14%;
+  margin-right: 7.3%;
+  margin-left: 7.3%;
+  text-decoration:none;
+  color: #fff;
+}
+
+.footer .social a:hover{
+  color: #014b63 !important;
+}
+
+.footer .social a:active{
+  color: #00fbff !important;
+}
+
+.footer .social a span{
+  font-size:20px;
 }
 
 .official-website{
   background-color: rgba(105, 105, 105, 1);
-  padding: 1%;
-  padding-top: 1%;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .official-website p{
-  font-size: 1vw;
+  font-size: 110%;
   font-weight: 200;
   color: #fff;
-  margin-bottom: 1%;
 }
 
 .official-website p a{
@@ -111,7 +137,8 @@ h1{
 .back-to-top{
   cursor: pointer;
   color: rgb(107, 202, 204);
-  font-size: 1.3vw;
+  font-size: 30px;
+  position:fixed;
 }
 
 #slider-footer{
@@ -146,18 +173,9 @@ h1{
 }
 
 @media screen and (min-width: 2025px){
-	h1{
-		font-size: 1.8vw;
-		margin:0.2%;
-	}
-
 	.mini-menu label{
 		font-size: 0.7vw;
 		margin:0.2%;
-	}
-
-	.home-navbar .navbar-nav .nav-item a{
-		font-size: 0.8vw;
 	}
 }
 
@@ -172,3 +190,4 @@ h1{
 		margin:0.4%;
 	}
 }
+
