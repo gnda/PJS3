@@ -1,0 +1,22 @@
+.home-intro-delimiter{
+    width: 300px;    
+    border-bottom: 4px dotted rgba(1, 177, 175, 1);
+}
+
+.mini-menu a:link 
+{ 
+	text-decoration:none;
+	color:black;
+}
+
+.mini-menu a:hover 
+{ 
+	text-decoration:inherit;
+  	color: #3AC0C7;
+  	-webkit-transition: color 0.3s;
+}
+
+.mini-menu a
+{ 
+	color:black;
+}
