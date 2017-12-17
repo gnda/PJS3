@@ -1,18 +1,19 @@
 $(document).ready(function(){
-   /* $("#owl-footer").owlCarousel({
-        center: true,
-        loop: true,
-        dots: false,
-        items: 4,
-        autoplay: true,
-        autoplayTimeout: 4000,
-        autoplaySpeed: 700
-    });*/
-
     $(".back-to-top").click(function(){
         $("html,body").animate({
             scrollTop: $("body").offset().top
         },"1000");
-        return false
     });
+
+	if ($(window).scrollTop() > 10)
+		$('.back-to-top').fadeIn('slow');
+	
+	$(window).scroll(function() {
+		if ($(window).scrollTop() > 10) {
+			$('.back-to-top').fadeIn('slow');
+		}
+		else {
+			$('.back-to-top').fadeOut('slow');
+		}
+	});
 });
