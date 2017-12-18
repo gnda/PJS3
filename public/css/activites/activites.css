@@ -71,9 +71,77 @@
     display: block;
 }
 
+@media screen and (max-width: 1199px){
+    #page_activites {
+        background-color: #39bfc7;
+        color: white;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: auto auto auto auto;
+    }
 
+    #page_activites h2 {
+        text-align: center;
+        margin: auto;
+        padding-bottom: 2%;
+        font-size: 24px;
+        line-height: 1.5;
+        font-weight: bold;
+        font-style: italic;
+    }
 
+    #page_activites p {
+        text-align: justify;
+        font-size: 14px;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
 
+    .activites-container .ski {
+        width: auto;
+        height: 100%;
+        margin-bottom: 10%;
+        margin-left: 15.5%;
+        margin-right: auto;
+        margin-top:-17%;
+        display: block;
+    }
+}
 
+@media screen and (max-width: 991px){
+    #page_activites {
+        background-color: #39bfc7;
+        color: white;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: auto auto auto auto;
+    }
 
+    #page_activites h2 {
+        text-align: center;
+        margin: auto;
+        padding-bottom: 2%;
+        font-size: 24px;
+        line-height: 1.5;
+        font-weight: bold;
+        font-style: italic;
+    }
+
+    #page_activites p {
+        text-align: justify;
+        font-size: 14px;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .activites-container .ski {
+        width: 80%;
+        height: auto;
+        margin-bottom: 10%;
+        margin-left: 1%;
+        margin-right: auto;
+        margin-top:-25%;
+        display: block;
+    }
+}
 
