@@ -26,6 +26,7 @@
   display: grid;
   grid-template-rows: 50%;
   grid-auto-flow: column;
+  margin-bottom: 3px;
 }
 
 colonne_gauche {
@@ -60,7 +61,7 @@ colonne_droite {
 
 .para_droite_anti {
 	margin-left: 15%;
-	margin-top: 10%;
+	margin-top: 1em;
 }
 
 .image_anti img {
@@ -72,13 +73,13 @@ colonne_droite {
 }
 
 .image_anti_deux img {
-	margin-top:6em;
+	margin-top:2em;
 	margin-left:15px;
 	 width:95%;
 
 }
 .moyenage {
-	margin-top:6em;
+	margin-top:5em;
 	margin-left: 15%;
 }
 
@@ -91,7 +92,7 @@ colonne_droite {
 }
 
 .contemporain {
-	margin-top:10.5%;
+	
 	margin-left: 15%;
 }
 
@@ -103,7 +104,7 @@ colonne_droite {
 }
 
 .moderne {
-	margin-top:10%;
+	margin-top:2em;
 } 
 
 .image_moderne img {
@@ -135,5 +136,11 @@ colonne_droite {
 
 .block {
 	margin-bottom:20px;
+}
+
+.prehistoire_para {
+	
+	margin-left:9%;
+	
 }
 
