@@ -1,22 +1,49 @@
+.container .villes{
+	position:relative;
+}
+
+.container .villes .titre{
+	position:absolute;
+	top:26.5%;
+	background-color:#38c1c7ba;
+	color:white;
+	padding: 1% 0% 1% 0%;
+	width:100%;
+	font-weight:600;
+	font-size:90%;
+	text-align:center;
+}
+
+#gds-villes-container h1,
+#gds-villes-container h2{
+	color:white;
+}
+
+#gds-villes-container h1{
+	font-weight:10;
+}
+
+#gds-villes-container h2{
+	font-style: italic;
+	font-weight:400;
+	font-size:21px;
+}
+
+#gds-villes-container .villes img{
+	height:auto;
+	width:100%;
+}
+
+#gds-villes-container .villes p{
+	width:50%;
+	text-align:center;
+	margin: 2% 0% 2% 25%;
+}
+
 .home-intro-delimiter{
-    width: 300px;    
-    border-bottom: 4px dotted rgba(1, 177, 175, 1);
+	margin: 2.5% 0% 2.5% 0%;
 }
 
-.mini-menu a:link 
-{ 
-	text-decoration:none;
-	color:black;
-}
-
-.mini-menu a:hover 
-{ 
-	text-decoration:inherit;
-  	color: #3AC0C7;
-  	-webkit-transition: color 0.3s;
-}
-
-.mini-menu a
-{ 
-	color:black;
+center{
+	z-index:+5;
 }

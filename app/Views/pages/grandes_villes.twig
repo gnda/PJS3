@@ -4,61 +4,70 @@
 
 {% block content %}
 
-    <div class="container gds-villes-container">
-	
+    <div class="container">
+		<h1>Grandes Villes de la Haute-Savoie</h1>
 		<div class="mini-menu">
-            <h1>Grandes Villes de la Haute-Savoie</h1>
-            <div class="mini-menu">
-                <label><a href="#annecy">Annecy</a></label>
-                <label><a href="#chamonix">Chamonix</a></label>
-                <label><a href="#lyon">Lyon</a></label>
-                <label><a href="#saint-etienne">Saint-Etienne</a></label>
-                <label><a href="#grenoble">Grenoble</a></label>
-            </div>
+			<label><a href="#annecy">Annecy</a></label>
+			<label><a href="#chamonix">Chamonix</a></label>
+			<label><a href="#lyon">Lyon</a></label>
+			<label><a href="#saint-etienne">Saint-Etienne</a></label>
+			<label><a href="#grenoble">Grenoble</a></label>
         </div>
-        <div id="annecy">
-            <h1>Annecy</h1>
-            <h2>50 0012 hab, 13.65 km²</h2>
-            <img src="{{ base_url() }}/img/grandes_villes/Annecy.png">
-            <p>Surnommée “la Venise des Alpes” c’est une commune situé près d’un lac entre les grands massifs des Alpes tel que le Mont-Blanc. C’est une ville chargée d’histoire située dans un lieu exceptionnel, idéal pour les touristes qui veulent en apprendre plus sur le coin ou pour ceux qui veulent apprécier une ville typique et les paysages alentours.</p>
-        </div>
-        
-        <center><div class="home-intro-delimiter"></div></center>
-        
-        <div id="chamonix">
-            <h1>Chamonix</h1>
-            <h2>8 927 hab, 116.53 km²</h2>
-            <img src="{{ base_url() }}/img/grandes_villes/Chamonix.webp">
-            <p>Enserrée entre les massifs montagneux des aiguilles Rouges et du mont Blanc, Chamonix est une des communes ayant l'altitude la plus haute de France et d'Europe occidentale. Elle est, par ailleurs, très prisée par les amateurs d’alpinisme et de sports de montagne en tous genres de part sa position géographique et son paysage sublime.</p>
-        </div>
-        
-        <center><div class="home-intro-delimiter"></div></center>
-        
-        <div id="lyon">
-            <h1>Lyon</h1>
-            <h2>506 615 hab, 47.87 km²</h2>
-            <img src="{{ base_url() }}/img/grandes_villes/Lyon.webp">
-            <p>Située entre le Massif Central et les Alpes c’est un lieu stratégique depuis des siècles. En effet, c’est un lieu de passage dans la vallée du Rhône pour le commerce et le transport de personnes. Mais c’est aussi une ancienne ville industrielle qui s’est recentrée par la suite vers les technologies de pointe et l’enseignement. <br/>
-            La ville des lumières a aussi vu naître le cinéma et ne manque pas de vous rappelez son histoire dans les musées dédiés. Vous pourrez aussi découvrir la fête des lumières qui se déroule en fin d’année où des artistes en tous genre se donnent RDV pour des spectacles de rue.</p>
-        </div>
-        
-        <center><div class="home-intro-delimiter"></div></center>
-        
-        <div id="saint-etienne">
-            <h1>Saint-Etienne</h1>
-            <h2>170 761 hab, 79.97 km²</h2>
-            <img src="{{ base_url() }}/img/grandes_villes/Saint-Etienne.webp">
-            <p>Saint-Etienne est une ville chargée d’histoire depuis l’antiquité mais principalement connue de nos jours du fait de son emplacement géographique dans un important site d’extraction de charbon. Depuis quelques années elle est en transition, tentant de passer de cité industrielle à “capitale du design” via un grand programme de rénovation urbain.</p>
-        </div>
-        
-        <center><div class="home-intro-delimiter"></div></center>
-        
-        <div id="grenoble">
-            <h1>Grenoble</h1>
-            <h2>160 779 hab, 18.13 km²</h2>
-            <img src="{{ base_url() }}/img/grandes_villes/Grenoble.webp">
-            <p>La ville a une histoire fortement marquée depuis 2000 ans, principalement pendant l’époque Gallo-romaine et la Révolution, avec un style architectural qui a traversé les époques du mieux possible. De plus la ville s’est principalement développé pendant les 30 glorieuses grâce aux JO d’hiver (entre autres choses) et marque ainsi son importance dans la région.</p>
-        </div>
+		<div id="gds-villes-container">
+			<div class="villes" id="annecy">
+				<div class="titre">
+					<h1>Annecy</h1>
+					<h2>50 0012 hab, 13.65 km²</h2>
+				</div>
+				<img src="{{ base_url() }}/img/grandes_villes/Annecy.png">
+				<p>Surnommée “la Venise des Alpes” c’est une commune situé près d’un lac entre les grands massifs des Alpes tel que le Mont-Blanc. C’est une ville chargée d’histoire située dans un lieu exceptionnel, idéal pour les touristes qui veulent en apprendre plus sur le coin ou pour ceux qui veulent apprécier une ville typique et les paysages alentours.</p>
+			</div>
+			
+			<center><div class="home-intro-delimiter"></div></center>
+			
+			<div class="villes" id="chamonix">
+				<div class="titre">
+					<h1>Chamonix</h1>
+					<h2>8 927 hab, 116.53 km²</h2>
+				</div>
+				<img src="{{ base_url() }}/img/grandes_villes/Chamonix.webp">
+				<p>Enserrée entre les massifs montagneux des aiguilles Rouges et du mont Blanc, Chamonix est une des communes ayant l'altitude la plus haute de France et d'Europe occidentale. Elle est, par ailleurs, très prisée par les amateurs d’alpinisme et de sports de montagne en tous genres de part sa position géographique et son paysage sublime.</p>
+			</div>
+			
+			<center><div class="home-intro-delimiter"></div></center>
+			
+			<div class="villes" id="lyon">
+				<div class="titre">
+					<h1>Lyon</h1>
+					<h2>506 615 hab, 47.87 km²</h2>
+				</div>	
+				<img src="{{ base_url() }}/img/grandes_villes/Lyon.webp">
+				<p>Située entre le Massif Central et les Alpes c’est un lieu stratégique depuis des siècles. En effet, c’est un lieu de passage dans la vallée du Rhône pour le commerce et le transport de personnes. Mais c’est aussi une ancienne ville industrielle qui s’est recentrée par la suite vers les technologies de pointe et l’enseignement. <br/>
+				La ville des lumières a aussi vu naître le cinéma et ne manque pas de vous rappelez son histoire dans les musées dédiés. Vous pourrez aussi découvrir la fête des lumières qui se déroule en fin d’année où des artistes en tous genre se donnent RDV pour des spectacles de rue.</p>
+			</div>
+			
+			<center><div class="home-intro-delimiter"></div></center>
+			
+			<div class="villes" id="saint-etienne">
+				<div class="titre">
+					<h1>Saint-Etienne</h1>
+					<h2>170 761 hab, 79.97 km²</h2>
+				</div>
+				<img src="{{ base_url() }}/img/grandes_villes/Saint-Etienne.webp">
+				<p>Saint-Etienne est une ville chargée d’histoire depuis l’antiquité mais principalement connue de nos jours du fait de son emplacement géographique dans un important site d’extraction de charbon. Depuis quelques années elle est en transition, tentant de passer de cité industrielle à “capitale du design” via un grand programme de rénovation urbain.</p>
+			</div>
+			
+			<center><div class="home-intro-delimiter"></div></center>
+			
+			<div class="villes" id="grenoble">
+				<div class="titre">
+					<h1>Grenoble</h1>
+					<h2>160 779 hab, 18.13 km²</h2>
+				</div>
+				<img src="{{ base_url() }}/img/grandes_villes/Grenoble.webp">
+				<p>La ville a une histoire fortement marquée depuis 2000 ans, principalement pendant l’époque Gallo-romaine et la Révolution, avec un style architectural qui a traversé les époques du mieux possible. De plus la ville s’est principalement développé pendant les 30 glorieuses grâce aux JO d’hiver (entre autres choses) et marque ainsi son importance dans la région.</p>
+			</div>
+		</div>
     </div>
 
 {% endblock %}

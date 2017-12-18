@@ -133,20 +133,6 @@ colonne_droite {
 	
 }
 
-.mini-menu a:hover 
-{ 
-	text-decoration:inherit;
-  	color: #3AC0C7;
-  	-webkit-transition: color 0.3s;
-	
-}
-
-.mini-menu a
-{ 
-	color:black;
-	
-}
-
 .block {
 	margin-bottom:20px;
 }
