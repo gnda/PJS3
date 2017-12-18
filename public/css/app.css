@@ -1,61 +1,81 @@
-body {
+html, body{
+   overflow-x: hidden;
+}
+
+body{
   font-family: 'Lato', sans-serif;
   padding-top: 120px;
-  overflow-x: hidden;
 }
 
-.home-navbar{
+.navbarre{
   background-color: rgba(242, 242, 242, 1) !important;
-  font-family: 'Open Sans', sans-serif;
-  position:relative;
+  position: fixed;
+  min-width: 100%;
+  margin-top: -120px;
+  z-index:+5;
 }
 
-.navbar {
-	position:fixed;
+.contenu{
+  margin: 0 auto;
+  max-width: 1100px;
+  padding: 0.6% 2%;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+#navbarre-site{
+	display: flex;
 	width:100%;
 }
 
-.navbar .container div{
-	width:5%;
+#navbarre-site ul{
+	display: flex;
+	list-style-type: none;
+	margin:0;
 }
 
-.home-navbar .navbar-nav .nav-item a{
-	font-size:17px;
+#navbarre-site .main-menu{
+	vertical-align: middle;
+	margin-top:2px;
 }
 
-.home-navbar .navbar-nav .nav-item a,
-.home-navbar .social-icons .nav-item span{
-  color: #696969 !important;
-  transition: color 0.4s ease 0s;
+#navbarre-site .social-icons{
+	margin-left:120px;
 }
 
-.home-navbar .navbar-nav .nav-item a.disabled{
-  color: #3AC0C7 !important;
+#navbarre-site .social-icons span{
+	font-size:20px;
 }
 
-.home-navbar .navbar-nav .nav-item a:hover,
-.home-navbar .social-icons .nav-item span:hover{
-  color: #3AC0C7 !important;
-}
-
-.home-navbar .navbar-nav .nav-item a:active{
-  color: #3AC0C7 !important;
-}
-
-.navbar-brand img{
-  height:100%;
-  width:50%;
+.navb-logo img{
+  height:40px;
+  width:40px;
   margin-left:50%;
 }
 
-.home-navbar .social-icons .nav-item a{
-  padding: 14% !important;
+.navb-item{
+	margin-left:18px;
 }
 
-.home-navbar .social-icons span {
-  color: #999999;
-  font-size: 22px;
-  padding-right:2px;
+#navbarre-site .main-menu .navb-link,
+#navbarre-site .social-icons a,
+.label-toggle{
+  font-family: 'Open Sans', sans-serif;
+  text-decoration: none;
+  color: #696969 !important;
+  transition: color 0.4s ease 0s;
+  font-size:17px;
+}
+
+#navbarre-site .main-menu .navb-link:hover,
+#navbarre-site .social-icons a:hover,
+.label-toggle:hover{
+	color: #3AC0C7 !important;
+}
+
+#menu-toggle, .label-toggle, #hidden-title{
+	display:none;
 }
 
 h1{
@@ -109,7 +129,9 @@ h1{
   color: #014b63 !important;
 }
 
-.footer .social a:active{
+.footer .social a:active,
+#navbarre-site li a:active,
+.label-toggle:active{
   color: #00fbff !important;
 }
 
@@ -188,13 +210,6 @@ h1{
 	82%,90%,100% { margin-left:-98.7vw; }
 }
 
-@media screen and (min-width: 2025px){
-	.mini-menu label{
-		font-size: 0.7vw;
-		margin:0.2%;
-	}
-}
-
 @media screen and (max-width: 1644px){
 	.back-to-top{
 	  padding-top:10px;
@@ -203,6 +218,97 @@ h1{
 	  width:60px;
 	  left:90%;
 	}
+}
+
+@media screen and (max-width: 985px){
+
+	.label-toggle{
+		display:block;
+		font-size:28px;
+		padding-top:2px;
+		margin-left:-290px;
+	}
+
+	.navb-logo{
+		margin-left:20px;
+	}
+
+	#hidden-title{
+		font-size:20px;
+		display:block;
+		width:830px;
+		margin-left:8%;
+		font-family: 'lemonmilkbold', 'Open Sans', sans-serif;
+	}
+
+	#navbarre-site .social-icons{
+		margin-left:-180px;
+	}
+
+	#navbarre-site .navb-link span{
+		font-size:30px;
+		padding-right:10px;
+	}
+
+
+	#menu-toggle:checked ~ .main-menu{
+		display:block;
+	}
+	
+	#navbarre-site .main-menu{
+		display:none;
+		margin:0;
+	}
+
+	#navbarre-site .main-menu ul{
+		text-align:center;
+		background-color:#696969;
+		position:absolute;
+		flex-direction:column;
+		top:100%;
+		width:100%;
+		padding-left:0;
+		right:0%;
+		padding:1px;
+	}
+
+	#navbarre-site .main-menu .navb-item:hover{
+		background-color:#38c1c7;
+		transition: background-color 0.2s;
+		box-sizing: border-box;
+		margin:0;
+		border:solid 2px white;
+	}
+
+   #navbarre-site .main-menu .navb-item:hover {
+		color: #ffffff !important;
+	}
+
+	#navbarre-site .main-menu .navb-item{
+		background-color:#f2f2f2;
+		padding:10px;
+		margin:1px;
+	}
+}
+
+@media screen and (max-width: 720px){
+
+	.label-toggle{
+		margin-right:10px;
+	}
+
+	.navb-logo{
+		margin-left:-10px;
+	}
+
+	#hidden-title{
+		font-size:100%;
+	}
+
+	#navbarre-site .social-icons{
+		margin-left:-240px;
+	}
+	
 }
 
 @media screen and (max-width: 767px){
@@ -219,5 +325,30 @@ h1{
 	.official-website p a{
 		display:grid;
 		margin:0;
+	}
+}
+
+@media screen and (max-width: 695px){
+	.back-to-top{
+	  margin-left:-30px;
+	}
+}
+
+@media screen and (max-width: 640px){
+	#hidden-title{
+		display:none;
+	}
+
+	.label-toggle{
+		margin-right:10px;
+	}
+
+	.navb-logo{
+		margin-left:10px;
+	}
+
+
+	#navbarre-site .social-icons{
+		margin-left:-90px;
 	}
 }

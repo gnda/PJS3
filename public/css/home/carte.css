@@ -15,10 +15,11 @@ g:hover, #auv-rhone-alp:hover{
     transition:all 0.1s linear;
 }
 
+#test:checked ~ label svg{
+  fill:#ffc193;
+}
+
 @keyframes clign {  
   50% { fill:#38c1c7; }
 }
 
-#prov-alp-cot a ~ polygon{
-  display:none;
-}

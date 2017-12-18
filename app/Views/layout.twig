@@ -13,51 +13,46 @@
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
     <link href="{{ base_url() }}/css/font/fontello/css/fontello.css" rel="stylesheet">
+	<link href="{{ base_url() }}/css/font/lemon/stylesheet.css" rel="stylesheet">
     <link href="{{ base_url() }}/css/app.css" rel="stylesheet">
     {% block css %}{% endblock %}
     
 </head>
 <body>
-    <nav class="navbar navbar-expand-md fixed-top home-navbar">
-      <div class="container"> 
-        <a class="navbar-brand" href="home"><img src="img/logo.png"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="nature">Nature</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="histoire">Histoire</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="grandes_villes">Grandes Villes</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="activites">Activités</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="culinaire">Spécialités Culinaires</a>
-            </li>
-          </ul>
-          <div class="my-2 my-lg-0 social-icons">
-            <ul class="navbar-nav mr-auto">
-              <li class="nav-item">
-                <a class="nav-link" href="https://www.facebook.com/"><span class="icon-facebook"></span></a>
+    <nav class="navbarre">
+      <nav class="contenu"> 
+        <a class="navb-logo" href="home"><img src="img/logo.png"></a>
+        <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-site" aria-controls="navbar-site" aria-expanded="false" aria-label="Toggle navigation"> -->
+          <!-- <span class="icon-bar"></span> -->
+        <!-- </button> -->
+		<span id="hidden-title">Auvergne - Rhône - Alpes</span>
+        <div id="navbarre-site">
+		  <input type="checkbox" id="menu-toggle">
+		  <div class="main-menu">
+			  <ul class="navb-nav">
+				<a class="navb-link" href="nature"><li class="navb-item">Nature</li></a>
+				<a class="navb-link" href="histoire"><li class="navb-item">Histoire</li></a>
+				<a class="navb-link" href="grandes_villes"><li class="navb-item">Grandes Villes</li></a>
+				<a class="navb-link" href="activites"><li class="navb-item">Activités</li></a>
+				<a class="navb-link" href="culinaire"><li class="navb-item">Spécialités Culinaires</li></a>
+			  </ul>
+		  </div>
+          <div class="social-icons">
+            <ul class="navb-nav">
+              <li class="navb-item">
+                <a class="navb-link" href="https://www.facebook.com/"><span class="icon-facebook"></span></a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="https://www.instagram.com/"><span class="icon-instagram"></span></a>
+              <li class="navb-item">
+                <a class="navb-link" href="https://www.instagram.com/"><span class="icon-instagram"></span></a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="https://twitter.com/"><span class="icon-twitter"></span></a>
+              <li class="navb-item">
+                <a class="navb-link" href="https://twitter.com/"><span class="icon-twitter"></span></a>
               </li>
             </ul>
           </div>
         </div>
-      </div>
+		<label for="menu-toggle" class="label-toggle"><span class="icon-menu"></span></label>
+      </nav>
     </nav>
 
     {% block content %}{% endblock %}
