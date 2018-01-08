@@ -275,6 +275,28 @@ input[name='plateaux'], input[name='choix']{
 	}
 }*/
 
+@media screen and (max-width: 800.36px){
+
+#lacs-container,
+#mil_roc-container,
+#plateaux-container{
+	display:block;
+	overflow: initial;
+	background-color:#6ad1d5;
+	height:25vw;
+}
+#commandes,#actifs{
+	display:none;
+}
+	#lacs-container,#plateaux-container{
+		margin-bottom:60%;
+	}
+
+		#mil_roc-container{
+		margin-bottom:120%;
+	}
+}
+
 @media screen and (max-width: 1215.28px){
 	#slider-nature .item {
 		font-size: 2vw;

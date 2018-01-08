@@ -10,7 +10,7 @@
   opacity:0;
 }
 
-g:hover ~ .caption{
+g:hover ~ .caption:not(.details){
   opacity:1;
 }
 
