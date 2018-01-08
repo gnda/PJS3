@@ -28,6 +28,10 @@ g:hover ~ .caption:not(.details){
   transition:all 0.1s linear;
 }
 
+#auv-rhone-alp-btn:checked ~ * .details{
+  opacity:1;
+}
+
 #auv-rhone-alp-btn:checked ~ svg #details-auv-rhone-alp{
   transition:all 0.1s linear;
 }
