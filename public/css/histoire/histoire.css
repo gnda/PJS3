@@ -20,6 +20,7 @@
 .home-intro-delimiter{
     width: 300px;    
     border-bottom: 4px dotted rgba(1, 177, 175, 1);
+    margin-left: 17%;
 }
 
 .colonne {
@@ -27,6 +28,14 @@
   grid-template-rows: 50%;
   grid-auto-flow: column;
   margin-bottom: 3px;
+}
+
+.colonne p {
+    text-align: justify;
+}
+
+.colonne h2 {
+    text-align: center;
 }
 
 colonne_gauche {
