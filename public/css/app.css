@@ -2,6 +2,10 @@ html, body{
    overflow-x: hidden;
 }
 
+body{
+	overflow-y: hidden;
+}
+
 .home-intro-delimiter{
     width: 300px;    
     border-bottom: 4px dotted rgba(1, 177, 175, 1);

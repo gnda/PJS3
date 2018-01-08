@@ -3,6 +3,7 @@
 {% block css %}
 
 <link href="{{ base_url() }}/css/home/home.css" rel="stylesheet">
+<link href="{{ base_url() }}/css/home/carte.css" rel="stylesheet">
 
 {% endblock %}
 
@@ -48,7 +49,10 @@
                 </div>
             </div>
         </div>
-		<object type="image/svg+xml" data="{{ base_url() }}/svg/home/carte.svg"></object>
+		<div id="carte">
+			<input type="checkbox" id="auv-rhone-alp-btn"/>
+			{{ source('carte.twig') }}
+		<div>
     </main>
 
 {% endblock %}

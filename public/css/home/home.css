@@ -77,6 +77,35 @@
     background-image: url('../../img/home/intro1.png')
 }
 
+#auv-rhone-alp-btn{
+    position:absolute;
+    z-index:-1;
+}
+
+#auv-rhone-alp-btn:not(:checked){
+    bottom:-38%;
+    left:63%;
+}
+
+#auv-rhone-alp-btn:not(:checked) ~ svg{
+    margin-bottom:-87%;
+    transition:all 0.1s linear;
+}
+
+#auv-rhone-alp-btn:checked{
+    bottom:67%;
+    left:78%;
+}
+
+#auv-rhone-alp-btn:checked ~ svg{
+    margin-bottom:-40%;
+    transition:all 0.1s linear;
+}
+
+#carte{
+    position:relative;
+}
+
 @media screen and (max-width: 770px){
     .home-container{
         margin-bottom: 3%;
