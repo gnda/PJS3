@@ -6,29 +6,13 @@
     animation: clign 3s linear infinite;
 }
 
-.tooltip-box{
-  z-index:+15;
-  fill:#FFFFFF;
-  stroke:#000000;
-  stroke-width:2;
+.caption{
+  opacity:0;
 }
 
-.tooltip-text {
-  z-index:+4;
-  fill: black;
-  font-size: 12px;
-  font-family: sans-serif;
+g:hover ~ .caption{
+  opacity:1;
 }
-
-#auv-rhone-alp.tooltip path {
-  z-index:+15;
-  fill:#FFFFFF;
-  stroke:#000000;
-  stroke-width:0.25;
-  stroke-miterlimit:10;
-}
-
-
 
 #dom g:hover{
     fill:#ffc193;
